@@ -1,0 +1,1830 @@
+=====================================================================
+== D:\steam\steamapps\common\Arma 3 Server\arma3server_x64.exe
+== arma3server_x64.exe  -limitFPS=1000 -port=2302 -autoinit "-config=BRPVP_CFG_altis\config.cfg" "-cfg=BRPVP_CFG_altis\basic.cfg" "-profiles=BRPVP_CFG_altis" -name=BRPVP_CFG_altis "-serverMod=@extDB3;@BRPVP_server"
+
+Original output filename: Arma3Retail_Server_x64
+Exe timestamp: 2021/11/10 16:22:22
+Current time:  2021/11/18 22:15:19
+
+Type: Public
+Build: Stable
+Version: 2.06.148470
+
+Allocator: D:\steam\steamapps\common\Arma 3 Server\Dll\tbb4malloc_bi_x64.dll [2017.0.0.0] [2017.0.0.0]
+PhysMem: 7.2 GiB, VirtMem : 131072 GiB, AvailPhys : 4.5 GiB, AvailVirt : 131068 GiB, AvailPage : 3.6 GiB, PageSize : 4.0 KiB/2.0 MiB/HasLockMemory
+=====================================================================
+
+22:15:19 Detected number of DLCs: 20
+22:15:19 ---------------------------------------------------------- Game ----------------------------------------------------------
+22:15:19                                                                name      appId   owned  installed  available   isDlc
+22:15:19                                                              Arma 3     107410     yes         no        yes      no
+22:15:19                                                             Unknown         -1      no         no         no     yes
+22:15:19 ---------------------------------------------------------- Dlcs ----------------------------------------------------------
+22:15:19  index                                                         name      appId   owned  installed  available   isDlc
+22:15:19      0                                                  Arma 3 Maps     249861      no         no         no     yes
+22:15:19      1                                        Arma 3 Tactical Guide     249862      no         no         no     yes
+22:15:19      2                                                  Arma 3 Zeus     275700     yes         no        yes     yes
+22:15:19      3                                                 Arma 3 Karts     288520      no         no        yes     yes
+22:15:19      4                                           Arma 3 Helicopters     304380      no         no        yes     yes
+22:15:19      5                                          Arma 3 DLC Bundle 1     304400      no         no         no     yes
+22:15:19      6                                              Arma 3 Marksmen     332350      no         no        yes     yes
+22:15:19      7                                                  Arma 3 Apex     395180      no         no        yes     yes
+22:15:19      8                                           Arma 3 Laws of War     571710      no         no        yes     yes
+22:15:19      9                                                  Arma 3 Jets     601670      no         no        yes     yes
+22:15:19     10                                          Arma 3 DLC Bundle 2     612480      no         no         no     yes
+22:15:19     11                                                Arma 3 Malden     639600     yes         no        yes     yes
+22:15:19     12                                  Arma 3 Tac-Ops Mission Pack     744950      no         no        yes     yes
+22:15:19     13                                                 Arma 3 Tanks     798390      no         no        yes     yes
+22:15:19     14                                               Arma 3 Contact    1021790      no         no        yes     yes
+22:15:19     15   Arma 3 Creator DLC: Global Mobilization - Cold War Germany    1042220      no         no        yes     yes
+22:15:19     16                      Arma 3 Creator DLC: S.O.G. Prairie Fire    1227700      no         no        yes     yes
+22:15:19     17                        Arma 3 Creator DLC: CSLA Iron Curtain    1294440      no         no        yes     yes
+22:15:19     18                                            Arma 3 Art of War    1325500      no         no        yes     yes
+22:15:19     19                           Arma 3 Creator DLC: Western Sahara    1681170      no         no        yes     yes
+22:15:19 --------------------------------------------------------------------------------------------------------------------------
+22:15:20 Initializing stats manager.
+22:15:20 Stats config disabled.
+22:15:20 sessionID: 444b7d932c1d8ae846a671f4f07169c73ad04ac7
+22:15:27 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayEditObject/Controls/B_OK/ (original bin\config.bin)
+22:15:27 Updating base class RscSliderH->RscXSliderH, by a3\editor_f\config.bin/RscDisplayEditObject/Slider/ (original bin\config.bin)
+22:15:27 Updating base class RscText->RscPicture, by a3\editor_f\config.bin/RscDisplayEditObject/Preview/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionLoad/Controls/B_OK/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionSave/Controls/B_OK/ (original bin\config.bin)
+22:15:27 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoScrollbars/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoHScrollbars/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoVScrollbars/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscLine/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscActiveText, by a3\ui_f\config.bin/RscActivePicture/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscButton, by a3\ui_f\config.bin/RscButtonTextOnly/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscShortcutButtonMain/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonEditor/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscIGUIShortcutButton/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscGearShortcutButton/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonMenu/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuOK/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuCancel/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuSteam/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscLoadingText/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscListBox, by a3\ui_f\config.bin/RscIGUIListBox/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscListNBox, by a3\ui_f\config.bin/RscIGUIListNBox/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackground/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUI/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUILeft/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIRight/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIBottom/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUITop/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUIDark/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/RscBackgroundLogo/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscMapControl, by a3\ui_f\config.bin/RscMapControlEmpty/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPicture, by a3\ui_f\config.bin/CA_Mainback/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Back/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Title_Back/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Black_Back/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscTitle, by a3\ui_f\config.bin/CA_Title/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/CA_Logo/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->CA_Logo, by a3\ui_f\config.bin/CA_Logo_Small/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscButton, by a3\ui_f\config.bin/CA_RscButton/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->CA_RscButton, by a3\ui_f\config.bin/CA_RscButton_dialog/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscActiveText, by a3\ui_f\config.bin/CA_Ok/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image2/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_text/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscVignette/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class ->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscMapControlTooltip/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class RscUnitInfo->RscUnitInfoAirNoWeapon, by a3\ui_f\config.bin/RscInGameUI/RscUnitInfoAir/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscInGameUI/RscTaskOverview/controls/TaskOverviewAssigned/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_OK/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Cancel/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Clear/ (original bin\config.bin)
+22:15:27 Updating base class ->RscText, by a3\ui_f\config.bin/RscDisplayCapture/controls/TimeLines/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonAverages/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonSavePreviousData/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonPreviousData/ (original bin\config.bin)
+22:15:27 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/IconPicture/ (original bin\config.bin)
+22:15:27 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcOwnedIconPicture/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcIconPicture/ (original a3\ui_f\config.bin)
+22:15:27 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/OverviewGroup/ (original bin\config.bin)
+22:15:27 Updating base class RscButton->RscButtonSearch, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/SearchButton/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonCancel/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonGameOptions/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenuSteam, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonBuyDLC/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonRevert/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonOK/ (original bin\config.bin)
+22:15:27 Updating base class RscListBox->RscCombo, by a3\ui_f\config.bin/RscDisplayCustomizeController/Steepness/ (original bin\config.bin)
+22:15:27 Updating base class ->RscStandardDisplay, by a3\ui_f\config.bin/RscDisplayControlSchemes/ (original bin\config.bin)
+22:15:27 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonCancel/ (original bin\config.bin)
+22:15:27 Updating base class RscButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonOK/ (original bin\config.bin)
+22:15:27 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayFileSelectImage/controls/OverviewPicture/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayFieldManual/Controls/ButtonCancel/ (original bin\config.bin)
+22:15:27 Cannot delete class B_KickOff, it is referenced somewhere (used as a base class probably).
+22:15:27 Updating base class RscButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMission/controls/ButtonCancel/ (original bin\config.bin)
+22:15:27 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonOK/ (original bin\config.bin)
+22:15:27 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonCancel/ (original bin\config.bin)
+22:15:27 Updating base class ->RscSubmenu, by a3\ui_f\config.bin/RscMainMenu/ (original bin\config.bin)
+22:15:28 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceMid/ (original bin\config.bin)
+22:15:28 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceLong/ (original bin\config.bin)
+22:15:28 Updating base class ->ctrlDefaultText, by a3\3den\config.bin/ctrlStatic/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlActiveText, by a3\3den\config.bin/ctrlActivePicture/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlDefaultText, by a3\3den\config.bin/ctrlStructuredText/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlControlsGroup, by a3\3den\config.bin/ctrlControlsGroupNoScrollbars/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlDefault, by a3\3den\config.bin/ctrlCheckbox/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlCheckbox, by a3\3den\config.bin/ctrlCheckboxBaseline/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:15:28 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:15:28 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_2/Controls/ (original a3\ui_f\config.bin)
+22:15:28 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_6/Controls/ (original a3\ui_f\config.bin)
+22:15:28 Updating base class ->ctrlControlsGroupNoScrollbars, by a3\3den\config.bin/Cfg3DEN/Attributes/Default/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlStatic, by a3\3den\config.bin/Cfg3DEN/Attributes/Title/Controls/Title/ (original a3\3den\config.bin)
+22:15:28 Updating base class ->ctrlToolbox, by a3\3den\config.bin/Cfg3DEN/Attributes/Toolbox/Controls/Value/ (original a3\3den\config.bin)
+22:15:30 Initializing Steam Manager
+22:15:30 Starting initial content check.
+22:15:30 Steam Manager initialized.
+22:15:30 
+22:15:30 ==== Loaded addons ====
+22:15:30 
+22:15:30 dta\bin.pbo - 148470
+22:15:30 dta\core.pbo - 129618
+22:15:30 dta\languagecore_f.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\anims_f_aow.ebo - 149768
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\characters_f_aow.ebo - 149965
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\data_f_aow.ebo - 149928
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\dubbing_f_aow.ebo - 149901
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\editorpreviews_f_aow.ebo - 149909
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\functions_f_aow.ebo - 149593
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\languagemissions_f_aow.ebo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\language_f_aow.ebo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\missions_f_aow.ebo - 149922
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\missions_f_aow_data.ebo - 149929
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\missions_f_aow_video.ebo - 149837
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\props_f_aow.ebo - 150020
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\sounds_f_aow.ebo - 149668
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\structures_f_aow.ebo - 149883
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\supplies_f_aow.ebo - 149874
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\aow\addons\ui_f_aow.ebo - 149917
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\air_f_enoch.ebo - 145904
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\anims_f_enoch.ebo - 149965
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\armor_f_enoch.ebo - 145904
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\cargoposes_f_enoch.ebo - 142478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\characters_f_enoch.ebo - 149965
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\data_f_enoch.ebo - 150070
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\dubbing_radio_f_enoch.ebo - 150070
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\dubbing_radio_f_enoch_data.ebo - 150020
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\editorpreviews_f_enoch.ebo - 145440
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\functions_f_enoch.ebo - 148356
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\languagemissions_f_enoch.ebo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\language_f_enoch.ebo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\map_enoch.ebo - 148551
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\map_enoch_data.ebo - 145274
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\map_enoch_data_layers.ebo - 146184
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\map_enoch_scenes_f.ebo - 143336
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\missions_f_enoch.ebo - 149487
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\music_f_enoch.ebo - 147472
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\music_f_enoch_music.ebo - 147127
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\props_f_enoch.pbo - 148738
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\rocks_f_enoch.pbo - 148432
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\soft_f_enoch.ebo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\sounds_f_enoch.ebo - 148786
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\static_f_enoch.ebo - 145904
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch.pbo - 148551
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_civilian.pbo - 148739
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_commercial.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_cultural.pbo - 148739
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_data.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_furniture.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_industrial.pbo - 148804
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_infrastructure.pbo - 148551
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\structures_f_enoch_military.pbo - 149965
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\supplies_f_enoch.ebo - 146762
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\ui_f_enoch.ebo - 147095
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\vegetation_f_enoch.pbo - 148432
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\enoch\addons\weapons_f_enoch.ebo - 149930
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\armor_f_tank.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\cargoposes_f_tank.pbo - 128283
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\characters_f_tank.pbo - 148392
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\data_f_tank.pbo - 128203
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\dubbing_f_tank.pbo - 127958
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\editorpreviews_f_tank.pbo - 137875
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\functions_f_tank.pbo - 125996
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\languagemissions_f_tank.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\language_f_tank.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\missions_f_tank.pbo - 150028
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\missions_f_tank_data.pbo - 128937
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\modules_f_tank.pbo - 147857
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\music_f_tank.pbo - 127912
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\props_f_tank.pbo - 131702
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\sounds_f_tank.pbo - 143095
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\structures_f_tank.pbo - 137876
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\ui_f_tank.pbo - 148551
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tank\addons\weapons_f_tank.pbo - 146892
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\characters_f_tacops.ebo - 129739
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\data_f_tacops.ebo - 150102
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\dubbing_f_tacops.ebo - 129340
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\functions_f_tacops.ebo - 150125
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\languagemissions_f_tacops.ebo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\language_f_tacops.ebo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\missions_f_tacops.ebo - 144976
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\modules_f_tacops.ebo - 149359
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\music_f_tacops.ebo - 124064
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\sounds_f_tacops.ebo - 123795
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\tacops\addons\ui_f_tacops.ebo - 148551
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\air_f_orange.pbo - 150020
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\cargoposes_f_orange.pbo - 126225
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\characters_f_orange.pbo - 148442
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\data_f_orange.pbo - 144284
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\dubbing_f_orange.pbo - 121689
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\editorpreviews_f_orange.pbo - 123173
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\functions_f_orange.pbo - 149339
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\languagemissions_f_orange.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\language_f_orange.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\missions_f_orange.pbo - 149975
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\modules_f_orange.pbo - 143632
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\music_f_orange.pbo - 120725
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\props_f_orange.pbo - 148864
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\soft_f_orange.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\sounds_f_orange.pbo - 145695
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\structures_f_orange.pbo - 147636
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\supplies_f_orange.pbo - 129371
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\ui_f_orange.pbo - 149706
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\orange\addons\weapons_f_orange.pbo - 149274
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\armor_f_argo.pbo - 129739
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\characters_f_patrol.pbo - 149127
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\data_f_argo.pbo - 128209
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\data_f_patrol.pbo - 141307
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\editorpreviews_f_argo.pbo - 142758
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\functions_f_patrol.pbo - 141510
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\languagemissions_f_patrol.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\language_f_argo.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\language_f_patrol.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\map_malden.pbo - 148936
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\map_malden_data.pbo - 135888
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\map_malden_data_layers.pbo - 135888
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\map_malden_scenes_f.pbo - 120026
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\missions_f_patrol.pbo - 126663
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\modules_f_patrol.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\music_f_argo.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\props_f_argo.pbo - 129371
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\rocks_f_argo.pbo - 148432
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\sounds_f_patrol.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\structures_f_argo.pbo - 147656
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\ui_f_patrol.pbo - 141307
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\vegetation_f_argo.pbo - 148432
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\argo\addons\weapons_f_patrol.pbo - 141307
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\air_f_jets.pbo - 146744
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\anims_f_jets.pbo - 123210
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\boat_f_destroyer.pbo - 143297
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\boat_f_jets.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\cargoposes_f_jets.pbo - 126225
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\characters_f_jets.pbo - 129739
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\data_f_destroyer.pbo - 132156
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\data_f_jets.pbo - 146856
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\data_f_sams.pbo - 132140
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\dubbing_f_jets.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\editorpreviews_f_destroyer.pbo - 132141
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\editorpreviews_f_jets.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\editorpreviews_f_sams.pbo - 132141
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\functions_f_destroyer.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\functions_f_jets.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\languagemissions_f_jets.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\language_f_destroyer.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\language_f_jets.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\language_f_sams.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\missions_f_jets.pbo - 130755
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\modules_f_jets.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\music_f_jets.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\props_f_destroyer.pbo - 132141
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\props_f_jets.pbo - 129371
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\sounds_f_jets.pbo - 141706
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\static_f_destroyer.pbo - 140243
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\static_f_jets.pbo - 146744
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\static_f_sams.pbo - 146744
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\ui_f_jets.pbo - 126137
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\weapons_f_destroyer.pbo - 132268
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\weapons_f_jets.pbo - 131383
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\jets\addons\weapons_f_sams.pbo - 149414
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\air_f_exp.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\anims_f_exp.pbo - 126506
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\armor_f_exp.pbo - 141671
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\boat_f_exp.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\cargoposes_f_exp.pbo - 126224
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\characters_f_exp.pbo - 149878
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\characters_f_oldman.pbo - 148698
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\data_f_exp.pbo - 148936
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\data_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_f_exp.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_f_oldman.pbo - 148756
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp.pbo - 119458
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_chi.pbo - 119458
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_engfre.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_fre.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\editorpreviews_f_exp.pbo - 147098
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\editorpreviews_f_oldman.pbo - 148621
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\functions_f_exp.pbo - 144006
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\functions_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\languagemissions_f_exp.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\languagemissions_f_oldman.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\language_f_exp.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\language_f_oldman.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\map_data_exp.pbo - 136265
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka.pbo - 148936
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka_data.pbo - 135884
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka_data_layers.pbo - 121192
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka_data_layers_00_00.pbo - 121192
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoa_scenes_f.pbo - 123527
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\missions_f_exp.pbo - 144315
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\missions_f_exp_data.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\missions_f_exp_video.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\missions_f_oldman.pbo - 150013
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\modules_f_exp.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\modules_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\music_f_exp.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\music_f_exp_music.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\music_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\music_f_oldman_music.pbo - 148679
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\props_f_exp.pbo - 147637
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\props_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\rocks_f_exp.pbo - 148432
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\soft_f_exp.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\soft_f_oldman.pbo - 148580
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\sounds_f_exp.pbo - 149339
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\sounds_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\static_f_exp.pbo - 119478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\static_f_oldman.pbo - 148580
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_civilian.pbo - 148739
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_commercial.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_cultural.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_data.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_industrial.pbo - 148419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_infrastructure.pbo - 148551
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_oldman.pbo - 150089
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\supplies_f_exp.pbo - 148079
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\supplies_f_oldman.pbo - 148553
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\ui_f_exp.pbo - 123398
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\ui_f_oldman.pbo - 149216
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\vegetation_f_exp.pbo - 148432
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\expansion\addons\weapons_f_exp.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\anims_f_mark.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\characters_f_mark.pbo - 148392
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\data_f_mark.pbo - 129371
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\dubbing_f_mark.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\dubbing_f_mp_mark.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\functions_f_mark.pbo - 150154
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\functions_f_mp_mark.pbo - 129434
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\languagemissions_f_mark.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\languagemissions_f_mp_mark.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\language_f_mark.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\language_f_mp_mark.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mark.pbo - 122301
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mark_data.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mark_video.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mp_mark.pbo - 141704
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mp_mark_data.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\modules_f_mark.pbo - 148886
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\modules_f_mp_mark.pbo - 143568
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\music_f_mark.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\music_f_mark_music.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\sounds_f_mark.pbo - 143218
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\static_f_mark.pbo - 146756
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\structures_f_mark.pbo - 149003
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\supplies_f_mark.pbo - 140562
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\ui_f_mark.pbo - 119478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\ui_f_mp_mark.pbo - 119478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\mark\addons\weapons_f_mark.pbo - 149339
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\air_f_heli.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\anims_f_heli.pbo - 123210
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\boat_f_heli.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\cargoposes_f_heli.pbo - 126231
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\data_f_heli.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\dubbing_f_heli.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\functions_f_heli.pbo - 123022
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\languagemissions_f_heli.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\language_f_heli.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\missions_f_heli.pbo - 129397
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\missions_f_heli_data.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\missions_f_heli_video.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\modules_f_heli.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\music_f_heli.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\music_f_heli_music.pbo - 119477
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\soft_f_heli.pbo - 129742
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\sounds_f_heli.pbo - 119478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\structures_f_heli.pbo - 141968
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\supplies_f_heli.pbo - 145695
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\heli\addons\ui_f_heli.pbo - 119478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\anims_f_kart.pbo - 123210
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\characters_f_kart.pbo - 148392
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\data_f_kart.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\languagemissions_f_kart.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\language_f_kart.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\missions_f_kart.pbo - 149274
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\missions_f_kart_data.pbo - 119459
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\modules_f_kart.pbo - 150028
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\modules_f_kart_data.pbo - 149274
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\soft_f_kart.pbo - 150071
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\sounds_f_kart.pbo - 125381
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\structures_f_kart.pbo - 123419
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\ui_f_kart.pbo - 119478
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\kart\addons\weapons_f_kart.pbo - 138461
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\data_f_curator.pbo - 149127
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\data_f_curator_music.pbo - 119457
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\functions_f_curator.pbo - 150096
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\language_f_curator.pbo - 150117
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\missions_f_curator.pbo - 121570
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\modules_f_curator.pbo - 150096
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\curator\addons\ui_f_curator.pbo - 148756
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\@BRPVP_server\addons\brpvp_server_code.pbo - unknown
+22:15:30 D:\steam\steamapps\common\Arma 3 Server\@extDB3\addons\extdb3.pbo - unknown
+22:15:30 addons\3den.pbo - 150149
+22:15:30 addons\3den_language.pbo - 150117
+22:15:30 addons\a3.pbo - unknown
+22:15:30 addons\air_f.pbo - 150071
+22:15:30 addons\air_f_beta.pbo - 149975
+22:15:30 addons\air_f_epb.pbo - 145119
+22:15:30 addons\air_f_epc.pbo - 148514
+22:15:30 addons\air_f_gamma.pbo - 150048
+22:15:30 addons\animals_f.pbo - 150071
+22:15:30 addons\animals_f_beta.pbo - 150071
+22:15:30 addons\anims_f.pbo - 149800
+22:15:30 addons\anims_f_bootcamp.pbo - 123209
+22:15:30 addons\anims_f_data.pbo - 148601
+22:15:30 addons\anims_f_epa.pbo - 134499
+22:15:30 addons\anims_f_epc.pbo - 121358
+22:15:30 addons\anims_f_exp_a.pbo - 123209
+22:15:30 addons\anims_f_mod.pbo - 135280
+22:15:30 addons\armor_f.pbo - 149414
+22:15:30 addons\armor_f_beta.pbo - 150071
+22:15:30 addons\armor_f_epb.pbo - 149965
+22:15:30 addons\armor_f_epc.pbo - 148819
+22:15:30 addons\armor_f_gamma.pbo - 150071
+22:15:30 addons\baseconfig_f.pbo - 119457
+22:15:30 addons\boat_f.pbo - 150071
+22:15:30 addons\boat_f_beta.pbo - 132036
+22:15:30 addons\boat_f_epc.pbo - 131911
+22:15:30 addons\boat_f_gamma.pbo - 127529
+22:15:30 addons\cargoposes_f.pbo - 149489
+22:15:30 addons\characters_f.pbo - 150020
+22:15:30 addons\characters_f_beta.pbo - 149965
+22:15:30 addons\characters_f_bootcamp.pbo - 149274
+22:15:30 addons\characters_f_epa.pbo - 148392
+22:15:30 addons\characters_f_epb.pbo - 148392
+22:15:30 addons\characters_f_epc.pbo - 148392
+22:15:30 addons\characters_f_gamma.pbo - 148392
+22:15:30 addons\data_f.pbo - 150071
+22:15:30 addons\data_f_bootcamp.pbo - 129618
+22:15:30 addons\data_f_exp_a.pbo - 119457
+22:15:30 addons\data_f_exp_b.pbo - 119457
+22:15:30 addons\data_f_mod.pbo - 131534
+22:15:30 addons\data_f_warlords.pbo - 147096
+22:15:30 addons\drones_f.pbo - 146855
+22:15:30 addons\dubbing_f.pbo - 119457
+22:15:30 addons\dubbing_f_beta.pbo - 119457
+22:15:30 addons\dubbing_f_bootcamp.pbo - 119457
+22:15:30 addons\dubbing_f_epa.pbo - 119457
+22:15:30 addons\dubbing_f_epb.pbo - 119457
+22:15:30 addons\dubbing_f_epc.pbo - 119457
+22:15:30 addons\dubbing_f_gamma.pbo - 122449
+22:15:30 addons\dubbing_f_warlords.pbo - 136700
+22:15:30 addons\dubbing_radio_f.pbo - 119457
+22:15:30 addons\dubbing_radio_f_data_eng.pbo - 119457
+22:15:30 addons\dubbing_radio_f_data_engb.pbo - 119458
+22:15:30 addons\dubbing_radio_f_data_gre.pbo - 119458
+22:15:30 addons\dubbing_radio_f_data_per.pbo - 119458
+22:15:30 addons\dubbing_radio_f_data_vr.pbo - 119458
+22:15:30 addons\editorpreviews_f.pbo - 149003
+22:15:30 addons\editor_f.pbo - 121103
+22:15:30 addons\functions_f.pbo - 150098
+22:15:30 addons\functions_f_bootcamp.pbo - 149975
+22:15:30 addons\functions_f_epa.pbo - 138704
+22:15:30 addons\functions_f_epc.pbo - 119458
+22:15:30 addons\functions_f_exp_a.pbo - 122619
+22:15:30 addons\functions_f_warlords.pbo - 150013
+22:15:30 addons\languagemissions_f.pbo - 150117
+22:15:30 addons\languagemissions_f_beta.pbo - 150117
+22:15:30 addons\languagemissions_f_bootcamp.pbo - 150117
+22:15:30 addons\languagemissions_f_epa.pbo - 150117
+22:15:30 addons\languagemissions_f_epb.pbo - 150117
+22:15:30 addons\languagemissions_f_epc.pbo - 150117
+22:15:30 addons\languagemissions_f_exp_a.pbo - 150117
+22:15:30 addons\languagemissions_f_gamma.pbo - 150117
+22:15:30 addons\language_f.pbo - 150117
+22:15:30 addons\language_f_beta.pbo - 150117
+22:15:30 addons\language_f_bootcamp.pbo - 150117
+22:15:30 addons\language_f_epa.pbo - 150117
+22:15:30 addons\language_f_epb.pbo - 150117
+22:15:30 addons\language_f_epc.pbo - 150117
+22:15:30 addons\language_f_exp_a.pbo - 150117
+22:15:30 addons\language_f_exp_b.pbo - 150117
+22:15:30 addons\language_f_gamma.pbo - 150117
+22:15:30 addons\language_f_mod.pbo - 150117
+22:15:30 addons\language_f_warlords.pbo - 150117
+22:15:30 addons\map_altis.pbo - 148442
+22:15:30 addons\map_altis_data.pbo - 135904
+22:15:30 addons\map_altis_data_layers.pbo - 135913
+22:15:30 addons\map_altis_data_layers_00_00.pbo - 0000
+22:15:30 addons\map_altis_data_layers_00_01.pbo - 0000
+22:15:30 addons\map_altis_data_layers_01_00.pbo - 0000
+22:15:30 addons\map_altis_data_layers_01_01.pbo - 0000
+22:15:30 addons\map_altis_scenes_f.pbo - 119459
+22:15:30 addons\map_data.pbo - 134124
+22:15:30 addons\map_stratis.pbo - 148442
+22:15:30 addons\map_stratis_data.pbo - 135888
+22:15:30 addons\map_stratis_data_layers.pbo - 135888
+22:15:30 addons\map_stratis_scenes_f.pbo - 119459
+22:15:30 addons\map_vr.pbo - 135900
+22:15:30 addons\map_vr_scenes_f.pbo - 119459
+22:15:30 addons\misc_f.pbo - 119459
+22:15:30 addons\missions_f.pbo - 141704
+22:15:30 addons\missions_f_beta.pbo - 149566
+22:15:30 addons\missions_f_beta_data.pbo - 149165
+22:15:30 addons\missions_f_beta_video.pbo - 119459
+22:15:30 addons\missions_f_bootcamp.pbo - 145509
+22:15:30 addons\missions_f_bootcamp_data.pbo - 119459
+22:15:30 addons\missions_f_bootcamp_video.pbo - 119459
+22:15:30 addons\missions_f_data.pbo - 119459
+22:15:30 addons\missions_f_epa.pbo - 144315
+22:15:30 addons\missions_f_epa_data.pbo - 119459
+22:15:30 addons\missions_f_epa_video.pbo - 119459
+22:15:30 addons\missions_f_epb.pbo - 119459
+22:15:30 addons\missions_f_epc.pbo - 141704
+22:15:30 addons\missions_f_exp_a.pbo - 141704
+22:15:30 addons\missions_f_exp_a_data.pbo - 119459
+22:15:30 addons\missions_f_gamma.pbo - 149041
+22:15:30 addons\missions_f_gamma_data.pbo - 119459
+22:15:30 addons\missions_f_gamma_video.pbo - 119459
+22:15:30 addons\missions_f_video.pbo - 119459
+22:15:30 addons\missions_f_warlords.pbo - 145437
+22:15:30 addons\modules_f.pbo - 148754
+22:15:30 addons\modules_f_beta.pbo - 149693
+22:15:30 addons\modules_f_beta_data.pbo - 149274
+22:15:30 addons\modules_f_bootcamp.pbo - 119459
+22:15:30 addons\modules_f_data.pbo - 122470
+22:15:30 addons\modules_f_epb.pbo - 134655
+22:15:30 addons\modules_f_exp_a.pbo - 119459
+22:15:30 addons\modules_f_warlords.pbo - 144205
+22:15:30 addons\music_f.pbo - 119459
+22:15:30 addons\music_f_bootcamp.pbo - 119459
+22:15:30 addons\music_f_bootcamp_music.pbo - 119459
+22:15:30 addons\music_f_epa.pbo - 119459
+22:15:30 addons\music_f_epa_music.pbo - 119459
+22:15:30 addons\music_f_epb.pbo - 119459
+22:15:30 addons\music_f_epb_music.pbo - 119459
+22:15:30 addons\music_f_epc.pbo - 119459
+22:15:30 addons\music_f_epc_music.pbo - 119477
+22:15:30 addons\music_f_music.pbo - 119477
+22:15:30 addons\plants_f.pbo - 148432
+22:15:30 addons\props_f_exp_a.pbo - 147637
+22:15:30 addons\roads_f.pbo - 148432
+22:15:30 addons\rocks_f.pbo - 149339
+22:15:30 addons\signs_f.pbo - 148432
+22:15:30 addons\soft_f.pbo - 150070
+22:15:30 addons\soft_f_beta.pbo - 150071
+22:15:30 addons\soft_f_bootcamp.pbo - 150071
+22:15:30 addons\soft_f_epc.pbo - 150070
+22:15:30 addons\soft_f_gamma.pbo - 150071
+22:15:30 addons\sounds_f.pbo - 150048
+22:15:30 addons\sounds_f_arsenal.pbo - 143218
+22:15:30 addons\sounds_f_bootcamp.pbo - 119477
+22:15:30 addons\sounds_f_characters.pbo - 143095
+22:15:30 addons\sounds_f_environment.pbo - 143095
+22:15:30 addons\sounds_f_epb.pbo - 126923
+22:15:30 addons\sounds_f_epc.pbo - 125380
+22:15:30 addons\sounds_f_exp_a.pbo - 119477
+22:15:30 addons\sounds_f_mod.pbo - 131534
+22:15:30 addons\sounds_f_sfx.pbo - 143211
+22:15:30 addons\sounds_f_vehicles.pbo - 146855
+22:15:30 addons\static_f.pbo - 149975
+22:15:30 addons\static_f_beta.pbo - 132365
+22:15:30 addons\static_f_gamma.pbo - 122615
+22:15:30 addons\structures_f.pbo - 148886
+22:15:30 addons\structures_f_bootcamp.pbo - 143436
+22:15:30 addons\structures_f_data.pbo - 148419
+22:15:30 addons\structures_f_epa.pbo - 149252
+22:15:30 addons\structures_f_epb.pbo - 148421
+22:15:30 addons\structures_f_epc.pbo - 148804
+22:15:30 addons\structures_f_exp_a.pbo - 132665
+22:15:30 addons\structures_f_households.pbo - 148419
+22:15:30 addons\structures_f_ind.pbo - 150048
+22:15:30 addons\structures_f_mil.pbo - 148419
+22:15:30 addons\structures_f_wrecks.pbo - 148419
+22:15:30 addons\uifonts_f.pbo - 119478
+22:15:30 addons\uifonts_f_data.pbo - 150106
+22:15:30 addons\ui_f.pbo - 150105
+22:15:30 addons\ui_f_bootcamp.pbo - 119478
+22:15:30 addons\ui_f_data.pbo - 149913
+22:15:30 addons\ui_f_exp_a.pbo - 119478
+22:15:30 addons\weapons_f.pbo - 150071
+22:15:30 addons\weapons_f_beta.pbo - 149465
+22:15:30 addons\weapons_f_bootcamp.pbo - 141713
+22:15:30 addons\weapons_f_epa.pbo - 148783
+22:15:30 addons\weapons_f_epb.pbo - 137810
+22:15:30 addons\weapons_f_epc.pbo - 130416
+22:15:30 addons\weapons_f_gamma.pbo - 148783
+22:15:30 addons\weapons_f_mod.pbo - 149339
+22:15:30 
+22:15:30 =======================
+22:15:30 
+22:15:30 ============================================================================================= List of mods ===============================================================================================
+22:15:30 modsReadOnly = false
+22:15:30 safeModsActivated = false
+22:15:30 customMods = true
+22:15:30 hash = 'EB110BEA02F507C9934A3A09E17847451D8C6F0E'
+22:15:30 hashShort = 'dada87fb'
+22:15:30                                               name |               modDir |    default |   official |               origin |                                     hash | hashShort | fullPath
+22:15:30 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22:15:30                                  Arma 3 Art of War |                  aow |       true |       true |             GAME DIR | 0d4d518854024cf5824af507af9e16c050f38936 |   bb26feb | D:\steam\steamapps\common\Arma 3 Server\aow
+22:15:30                          Arma 3 Contact (Platform) |                enoch |       true |       true |             GAME DIR | 4cd4bf722e1a360ab4199316041aad8a3b1afbe5 |   c3ba4c1 | D:\steam\steamapps\common\Arma 3 Server\enoch
+22:15:30                                       Arma 3 Tanks |                 tank |       true |       true |             GAME DIR | 9adf766a3291df59d96561ef5bbac024cd5f103c |  6b26ff75 | D:\steam\steamapps\common\Arma 3 Server\tank
+22:15:30                                     Arma 3 Tac-Ops |               tacops |       true |       true |             GAME DIR | b2aeee6afb4d22a907356a94f5db210e5207741b |  8646e5fd | D:\steam\steamapps\common\Arma 3 Server\tacops
+22:15:30                                 Arma 3 Laws of War |               orange |       true |       true |             GAME DIR | 0591fa9ec992d8e862d32f574c67b54402598c63 |  630e5234 | D:\steam\steamapps\common\Arma 3 Server\orange
+22:15:30                                      Arma 3 Malden |                 argo |       true |       true |             GAME DIR | f049aea19468628fb3c360a8148a3867502024f2 |  3b10ba25 | D:\steam\steamapps\common\Arma 3 Server\argo
+22:15:30                                        Arma 3 Jets |                 jets |       true |       true |             GAME DIR | 959b3d22f9145707051b0c44855a7be4bc8c24ba |  456e1ae6 | D:\steam\steamapps\common\Arma 3 Server\jets
+22:15:30                                        Arma 3 Apex |            expansion |       true |       true |             GAME DIR | 1f9076ab9257e5993e739ce0776c871e63d1260e |  da0e3bbd | D:\steam\steamapps\common\Arma 3 Server\expansion
+22:15:30                                    Arma 3 Marksmen |                 mark |       true |       true |             GAME DIR | 120c22fcb20352b35c3ff18018a3787db228ba14 |  a8e5ee75 | D:\steam\steamapps\common\Arma 3 Server\mark
+22:15:30                                 Arma 3 Helicopters |                 heli |       true |       true |             GAME DIR | 54fec03b56fd2cc0c3d608bd988b6be8d99c8373 |  e9bda741 | D:\steam\steamapps\common\Arma 3 Server\heli
+22:15:30                                       Arma 3 Karts |                 kart |       true |       true |             GAME DIR | a5ffd00a3db67b30af623a4a4ae57e4c158e9642 |  58a5c510 | D:\steam\steamapps\common\Arma 3 Server\kart
+22:15:30                                        Arma 3 Zeus |              curator |       true |       true |             GAME DIR | 7845d8b549e114fb683237da35d1677f17fd8640 |  925d03b0 | D:\steam\steamapps\common\Arma 3 Server\curator
+22:15:30                                             Arma 3 |                   A3 |       true |       true |            NOT FOUND |                                          |           | 
+22:15:30                                      @BRPVP_server |        @BRPVP_server |      false |      false |             GAME DIR | da39a3ee5e6b4b0d3255bfef95601890afd80709 |  11fdd19c | D:\steam\steamapps\common\Arma 3 Server\@BRPVP_server
+22:15:30                                            @extDB3 |              @extDB3 |      false |      false |             GAME DIR | da39a3ee5e6b4b0d3255bfef95601890afd80709 |  11fdd19c | D:\steam\steamapps\common\Arma 3 Server\@extDB3
+22:15:30 ==========================================================================================================================================================================================================
+22:15:30 InitSound ...
+22:15:30 InitSound - complete
+22:15:30 PhysX3 SDK Init started ...
+22:15:30 PhysX3 SDK Init ended.
+22:15:35 Warning Message: You cannot play/edit this mission; it is dependent on downloadable content that has been deleted.
+a3_characters_f
+22:15:35 Loading movesType CfgGesturesMale
+22:15:35 Creating action map cache
+22:15:35 MovesType CfgGesturesMale load time 63.0 ms
+22:15:35 Loading movesType CfgMovesMaleSdr
+22:15:35 Reading cached action map data
+22:15:36 Warning: looped for animation: a3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_loop.rtm differs (looped now 0)! MoveName: hubbriefing_ext
+22:15:36 Warning: looped for animation: a3\anims_f_epa\data\anim\sdr\cts\hubcleaned\spectator\hubspectator_stand.rtm differs (looped now 1)! MoveName: hubspectator_stand_contact
+22:15:37 MovesType CfgMovesMaleSdr load time 1738.0 ms
+22:15:37 Initializing Steam server - Game Port: 2302, Steam Query Port: 2303
+22:15:37 Steam AppId in current environment: 107410
+22:15:37 Mission 美利坚官方BRPVP_V131.altis: Number of roles (101) is different from 'description.ext::Header::maxPlayer' (200)
+22:15:38 Starting mission:
+22:15:38  Mission file: 美利坚官方BRPVP_V131 (__cur_mp)
+22:15:38  Mission world: altis
+22:15:38  Mission directory: mpmissions\__cur_mp.altis\
+22:15:44 Strange convex component202 in a3\structures_f\households\house_small01\d_house_small_01_v1_f.p3d:geometryView
+22:15:44 Strange convex component203 in a3\structures_f\households\house_small01\d_house_small_01_v1_f.p3d:geometryView
+22:15:45 Strange convex component145 in a3\plants_f\tree\t_pinuss2s_b_f.p3d:geometryView
+22:15:45 Strange convex component149 in a3\plants_f\tree\t_pinuss2s_b_f.p3d:geometryView
+22:15:45 Strange convex component115 in a3\structures_f\households\house_big01\u_house_big_01_v1_f.p3d:geometryView
+22:15:45 Strange convex component117 in a3\structures_f\households\house_big01\u_house_big_01_v1_f.p3d:geometryView
+22:15:49 "---------------------------------------------------------------------"
+22:15:49 "---------------------------------------------------------------------"
+22:15:49 CallExtension loaded: extDB3 (D:\steam\steamapps\common\Arma 3 Server\@extDB3\extDB3_x64.dll) [P�m��]
+
+22:15:49 "extDB3 Loaded"
+22:15:49 "---------------------------------------------------------------------"
+22:15:49 "---------------------------------------------------------------------"
+22:15:50 "[BRPVP] Wait for time > 0."
+22:15:50 Connected to Steam servers
+22:15:50 "[BRPVP] Wait for time > 0."
+22:15:50 c:\bis\source\stable\futura\lib\network\networkserver.cpp NetworkServer::OnClientStateChanged:NOT IMPLEMENTED - briefing!
+22:15:50  Mission id: 6d587783b83251c0443a016981322dfd0c6f5be1
+22:15:50 "[BRPVP] Wait for time > 0."
+22:15:50 Attempt to override final function - bis_fnc_storeparamsvalues_data
+22:15:50 "[BRPVP] Wait for time > 0."
+22:15:50 "[BRPVP] Wait for time > 0."
+22:15:50 "[SCRIPT] PRECALCULATED BEGIN"
+22:15:50 "[SCRIPT] PRECALCULATED END: 0"
+22:15:51 "[SCRIPT] BUILDINGS FOR ALTIS BEGIN"
+22:15:52 "[SCRIPT] BUILDINGS FOR ALTIS END: 1"
+22:15:52 "[SCRIPT] serverAndClientFunctions.sqf BEGIN"
+22:15:52 "[SCRIPT] serverAndClientFunctions.sqf END: 0"
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:52 soldier[O_V_Soldier_hex_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:15:53 "[SCRIPT] servidor_init.sqf BEGIN"
+22:15:53 "[ExtDB3 IGNITE] ""[1]"""
+22:15:53 "[ExtDB3 IGNITE] ExtDB3 is Running."
+22:15:53 "[BRPVP PROTOCOLO] P1.75228e+006"
+22:15:53 "[BRPVP PROTOCOLO_RAW] PR1.63813e+006"
+22:15:53 "[BRPVP PROTOCOLO_RAW_TEXT] PRT7.73292e+006"
+22:16:02 Strange convex component322 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+22:16:02 Strange convex component327 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+22:16:02 Strange convex component317 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometry
+22:16:02 Strange convex component318 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometry
+22:16:02 Strange convex component319 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometry
+22:16:02 Strange convex component317 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometryView
+22:16:02 Strange convex component318 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometryView
+22:16:02 Strange convex component319 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometryView
+22:16:09 "[TEMP TEMP TEMP] BRPVP_playerOwner = 2"
+22:16:09 "missionConfigFile = mpmissions\__cur_mp.altis\description.ext"
+22:16:09 "[SCRIPT] servidor_variaveisCalculadas.sqf BEGIN"
+22:16:10 "[SCRIPT] servidor_variaveisCalculadas.sqf END: 1"
+22:16:10 "[SCRIPT] servidor_funcoes_exclusive.sqf BEGIN"
+22:16:10 "[SCRIPT] servidor_funcoes_exclusive.sqf END: 0"
+22:16:10 "[SCRIPT] servidor_funcoes.sqf BEGIN"
+22:16:10 "[SCRIPT] servidor_funcoes.sqf END: 0"
+22:16:10 "[SCRIPT] servidor_PVEH.sqf BEGIN"
+22:16:10 "[SCRIPT] servidor_PVEH.sqf END: 0"
+22:16:10 "[SCRIPT] itemMarketVariables.sqf BEGIN"
+22:16:10 "[BRPVP] count BRPVP_mercadoItens: 506 | count BRPVP_traderWeaponItemsName: 99"
+22:16:10 "[BRPVP MARKET] BRPVP_mercadoItensClass = [""U_I_C_Soldier_Bandit_2_F"",""U_C_man_sport_2_F"",""U_C_man_sport_1_F"",""U_C_man_sport_3_F"",""U_O_PilotCoveralls"",""U_O_CombatUniform_ocamo"",""U_O_CombatUniform_oucamo"",""U_O_SpecopsUniform_ocamo"",""U_O_SpecopsUniform_blk"",""U_O_OfficerUniform_ocamo"",""U_O_T_Officer_F"",""U_O_T_Soldier_F"",""U_O_V_Soldier_Viper_F"",""U_O_V_Soldier_Viper_hex_F"",""U_O_Protagonist_VR"",""U_I_C_Soldier_Para_2_F"",""U_I_C_Soldier_Para_3_F"",""U_I_G_resistanceLeader_F"",""U_B_T_Soldier_F"",""U_O_R_Gorka_01_black_F"",""U_O_R_Gorka_01_brown_F"",""U_O_Wetsuit"",""U_O_GhillieSuit"",""U_O_T_Sniper_F"",""U_B_CTRG_Soldier_F"",""H_Cap_red"",""H_Cap_blu"",""H_Cap_oli"",""H_Cap_tan"",""H_Cap_blk"",""H_Cap_grn"",""H_Watchcap_blk"",""H_Watchcap_camo"",""H_PilotHelmetFighter_O"",""H_PilotHelmetHeli_O"",""H_PASGT_basic_black_F"",""H_HelmetB_snakeskin"",""H_HelmetO_ocamo"",""H_HelmetB_TI_tna_F"",""H_HelmetLeaderO_ocamo"",""G_Bandanna_tan"",""H_Shemag_olive"",""G_Bandanna_beast"",""G_Balaclava_
+22:16:10 "[BRPVP MARKET] BRPVP_mercadoItensParents = [[""U_I_C_Soldier_Bandit_2_F"",1,[""U_I_C_Soldier_Bandit_2_F"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_C_man_sport_2_F"",1,[""U_C_man_sport_2_F"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_C_man_sport_1_F"",1,[""U_C_man_sport_1_F"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_C_man_sport_3_F"",1,[""U_C_man_sport_3_F"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_O_PilotCoveralls"",1,[""U_O_PilotCoveralls"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_O_CombatUniform_ocamo"",1,[""U_O_CombatUniform_ocamo"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_O_CombatUniform_oucamo"",1,[""U_O_CombatUniform_oucamo"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_O_SpecopsUniform_ocamo"",1,[""U_O_SpecopsUniform_ocamo"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_O_SpecopsUniform_blk"",1,[""U_O_SpecopsUniform_blk"",""Uniform_Base"",""ItemCore"",""Default""]],[""U_O_OfficerUniform_ocamo"",1,[""U_O_OfficerUniform_ocamo"",""Uniform_Base"",""Ite
+22:16:10 "[SCRIPT] itemMarketVariables.sqf END: 0"
+22:16:10 "[SCRIPT] servidor_mercados.sqf BEGIN"
+22:16:10 No speaker given for 'Shaan Tinibu'
+22:16:10 No speaker given for 'Jahi Okonjo'
+22:16:10 No speaker given for 'Zev Okeke'
+22:16:10 No speaker given for 'Katungi Hoxha'
+22:16:10 No speaker given for 'Zev Osmani'
+22:16:10 No speaker given for 'Muhammad Azikiwe'
+22:16:10 No speaker given for 'Zahur Hoxha'
+22:16:10 No speaker given for 'Oringo Kuma'
+22:16:10 No speaker given for 'Davu Kuma'
+22:16:10 No speaker given for 'Hasan Okoye'
+22:16:10 No speaker given for 'Jahi Odili'
+22:16:10 No speaker given for 'Hamidi Osmani'
+22:16:10 No speaker given for 'Kwame Madaki'
+22:16:10 No speaker given for 'Muhammad Iwu'
+22:16:10 No speaker given for 'Kofi Sununu'
+22:16:10 No speaker given for 'Gula Balewa'
+22:16:10 No speaker given for 'Mobutu Okadigbo'
+22:16:10 No speaker given for 'Katungi Sekibo'
+22:16:10 No speaker given for 'Katungi Kuma'
+22:16:10 No speaker given for 'Oringo Madaki'
+22:16:10 No speaker given for 'Zev Okoye'
+22:16:10 No speaker given for 'Kwame Kuma'
+22:16:10 No speaker given for 'Kwame Achebe'
+22:16:10 No speaker given for 'Shaan Awolowo'
+22:16:10 No speaker given for 'Idi Inouyie'
+22:16:10 No speaker given for 'Dumi Kuma'
+22:16:11 No speaker given for 'Idi Hoxha'
+22:16:11 No speaker given for 'Kwame Okonkwo'
+22:16:11 No speaker given for 'Mobutu Awolowo'
+22:16:11 No speaker given for 'Mobutu Okeke'
+22:16:11 No speaker given for 'Dumi Gowon'
+22:16:11 No speaker given for 'Katungi Odili'
+22:16:11 No speaker given for 'Dembe Tinibu'
+22:16:11 No speaker given for 'Azibo Gowon'
+22:16:11 No speaker given for 'Oringo Egwu'
+22:16:11 No speaker given for 'Teshi Achebe'
+22:16:11 No speaker given for 'Zev Hoxha'
+22:16:11 No speaker given for 'Homer Oikonomopulu'
+22:16:11 No speaker given for 'Vasilis Roumpesi'
+22:16:11 No speaker given for 'Nicolo Gikas'
+22:16:11 No speaker given for 'Kouris Papadopoulos'
+22:16:11 No speaker given for 'Argyris Moraiti'
+22:16:11 No speaker given for 'Nicolo Stanis'
+22:16:11 "[SCRIPT] servidor_mercados.sqf END: 1"
+22:16:11 "[SCRIPT] servidor_veiculos.sqf BEGIN"
+22:16:11 "[BRPVP PATRIMONY QUERY RETURN SIZE] 1149"
+22:16:11 "---------------------------------------------------------------------------------------------------------------"
+22:16:11 "[""Rainbow--??"",18000]"
+22:16:11 "[""??????"",198000]"
+22:16:11 "[""Administrator"",0]"
+22:16:11 "[""ainbow-??"",72000]"
+22:16:11 "[""MAFIA-KIROV"",1.75e+006]"
+22:16:11 "[""75Brigand"",4.099e+006]"
+22:16:11 "[""??"",4.444e+006]"
+22:16:11 "[""Gucci Mane"",0]"
+22:16:11 "[""??"",36000]"
+22:16:11 "[""Jesse"",18000]"
+22:16:11 "[""taojun"",54000]"
+22:16:11 "[""??"",0]"
+22:16:11 "[""Starry"",267000]"
+22:16:11 "[""Administrator"",0]"
+22:16:11 "[""MAFIA-KIROV"",726000]"
+22:16:11 "[""MOBEI520"",828000]"
+22:16:11 "[""owengong"",0]"
+22:16:11 "[""Administrator"",438000]"
+22:16:11 "[""29208"",0]"
+22:16:11 "[""Administrator"",36000]"
+22:16:11 "[""?????? ???"",81000]"
+22:16:11 "[""Banshe_e"",0]"
+22:16:11 "[""??????Killer?King"",3.254e+006]"
+22:16:11 "[""75Brigand"",0]"
+22:16:11 "---------------------------------------------------------------------------------------------------------------"
+22:16:11 "[BRPVP GET OBJ DB] max call size is 6114 characters!"
+22:16:11 "[BRPVP GET OBJ DB] time takem is 0.00800323!"
+22:16:11 Ref to nonnetwork object 15429636040# 1815297: heli_light_01_f.p3d
+22:16:11 Ref to nonnetwork object 15429636040# 1815297: heli_light_01_f.p3d
+22:16:11 Ref to nonnetwork object 15429636040# 1815297: heli_light_01_f.p3d
+22:16:11 Ref to nonnetwork object 15429636040# 1815297: heli_light_01_f.p3d
+22:16:11 O_APC_Tracked_02_cannon_F: cannon_ready_light - unknown animation source muzzle_hide_cannon
+22:16:11 "[BRPVP COUNT PATRIMONY PLAYERS] 24"
+22:16:11 "=============================================================="
+22:16:11 "[3.7046e+007,[12,""MAFIA-KIROV"",2.582e+007,0,1.05e+007,726000,3.7046e+007]]"
+22:16:11 "[3.2729e+007,[1,""75Brigand"",1.813e+007,0,1.05e+007,4.099e+006,3.2729e+007]]"
+22:16:11 "[2.6644e+007,[4,""??????Killer?King"",1.574e+007,0,7.65e+006,3.254e+006,2.6644e+007]]"
+22:16:11 "[1.7364e+007,[14,""taojun"",1.546e+007,0,1.85e+006,54000,1.7364e+007]]"
+22:16:11 "[1.3514e+007,[20,""??"",9.07e+006,0,0,4.444e+006,1.3514e+007]]"
+22:16:11 "[9.91e+006,[18,""MAFIA-KIROV"",1.66e+006,0,6.5e+006,1.75e+006,9.91e+006]]"
+22:16:11 "[2.698e+006,[7,""MOBEI520"",1e+006,0,870000,828000,2.698e+006]]"
+22:16:11 "[2.238e+006,[3,""Rainbow--??"",2.22e+006,0,0,18000,2.238e+006]]"
+22:16:11 "[1.938e+006,[10,""Administrator"",1.5e+006,0,0,438000,1.938e+006]]"
+22:16:11 "[1.831e+006,[6,""?????? ???"",1.75e+006,0,0,81000,1.831e+006]]"
+22:16:11 "[1.808e+006,[23,""??????"",1.61e+006,0,0,198000,1.808e+006]]"
+22:16:11 "[1.797e+006,[17,""Starry"",1.53e+006,0,0,267000,1.797e+006]]"
+22:16:11 "[1.768e+006,[19,""Jesse"",1.75e+006,0,0,18000,1.768e+006]]"
+22:16:11 "[1.75e+006,[2,""75Brigand"",1.75e+006,0,0,0,1.75e+006]]"
+22:16:11 "[1.75e+006,[24,""Administrator"",1.75e+006,0,0,0,1.75e+006]]"
+22:16:11 "[1.75e+006,[11,""owengong"",1.75e+006,0,0,0,1.75e+006]]"
+22:16:11 "[1.75e+006,[5,""Banshe_e"",1.75e+006,0,0,0,1.75e+006]]"
+22:16:11 "[1.612e+006,[16,""ainbow-??"",1.54e+006,0,0,72000,1.612e+006]]"
+22:16:11 "[1.536e+006,[8,""Administrator"",1.5e+006,0,0,36000,1.536e+006]]"
+22:16:11 "[1.536e+006,[21,""??"",1.5e+006,0,0,36000,1.536e+006]]"
+22:16:11 "[1.5e+006,[13,""??"",1.5e+006,0,0,0,1.5e+006]]"
+22:16:11 "[1.5e+006,[15,""Administrator"",1.5e+006,0,0,0,1.5e+006]]"
+22:16:11 "[1.5e+006,[22,""Gucci Mane"",1.5e+006,0,0,0,1.5e+006]]"
+22:16:11 "[1.5e+006,[9,""29208"",1.5e+006,0,0,0,1.5e+006]]"
+22:16:11 "=============================================================="
+22:16:11 "[BRPVP] WH get DB size: 6"
+22:16:11 "[SCRIPT] servidor_veiculos.sqf END: 1"
+22:16:11 "[BRPVP EXECUCAO PRIORITARIA FSM] SCRIPT: SERVER VEHICLES. TEMPO: 0.613998"
+22:16:11 "[SCRIPT] servidor_completa_veiculos.sqf BEGIN"
+22:16:12 O_LSV_02_unarmed_F: unarmed_main_turret_hide - unknown animation source turrethide
+22:16:12 O_LSV_02_unarmed_F: unarmed_doors_hide - unknown animation source doorshide
+22:16:12 O_LSV_02_unarmed_F: mainturret - unknown animation source mainturret
+22:16:12 O_LSV_02_unarmed_F: maingun - unknown animation source maingun
+22:16:12 O_LSV_02_unarmed_F: maingunner - unknown animation source maingun
+22:16:12 O_LSV_02_unarmed_F: opticsfix - unknown animation source maingun
+22:16:12 O_LSV_02_unarmed_F: magazine_reload_hide_1 - unknown animation source voronamuzzle_reloadmagazine
+22:16:13 Duplicate HitPoint name 'HitTurret' in 'B_Heli_Transport_03_unarmed_F'
+22:16:13 Duplicate HitPoint name 'HitGun' in 'B_Heli_Transport_03_unarmed_F'
+22:16:13 Duplicate HitPoint name 'HitTurret' in 'B_Heli_Transport_03_unarmed_F'
+22:16:13 Duplicate HitPoint name 'HitGun' in 'B_Heli_Transport_03_unarmed_F'
+22:16:14 "[SCRIPT] servidor_completa_veiculos.sqf END: 2"
+22:16:15 "[BRPVP EXECUCAO PRIORITARIA FSM] SCRIPT: CALCULATE KILL MAP. TEMPO: 0.212997"
+22:16:15 "[BRPVP Rand Pos Initial Select Time] 0.36"
+22:16:16 Weather was forced to change
+22:16:16 "======= [BRPVP ALL TEMPORARY CLASS AD ITEMS REMOVED]:==============="
+22:16:16 "[""0:P1.75228e+006:classAdRemoveItemAuto"",""[1,[]]""]"
+22:16:16 "===================================================================="
+22:16:16 "[SCRIPT] servidor_init.sqf END: 4"
+22:16:16 "[BRPVP] SERVER STUFF LOADED IN 23 SECONDS! NOW STARTING CLIENTS..."
+22:16:20 "[BRPVP] FPS = -1."
+22:16:25 "[BRPVP] FPS = 223."
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_soldier_SL_F"",""SERGEANT""],[""B_G_soldier_F"",""PRIVATE""],[""B_G_soldier_LAT_F"",""CORPORAL""],[""B_G_Soldier_M_F"",""PRIVATE""],[""B_G_soldier_TL_F"",""SERGEANT""],[""B_G_soldier_AR_F"",""CORPORAL""],[""B_G_Soldier_A_F"",""PRIVATE""],[""B_G_medic_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_soldier_SL_F"",""SERGEANT""],[""B_G_soldier_AR_F"",""PRIVATE""],[""B_G_Soldier_GL_F"",""CORPORAL""],[""B_G_Soldier_M_F"",""SERGEANT""],[""B_G_soldier_LAT_F"",""CORPORAL""],[""B_G_soldier_LAT_F"",""PRIVATE""],[""B_G_soldier_A_F"",""PRIVATE""],[""B_G_medic_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_TL_F"",""SERGEANT""],[""B_G_Soldier_AR_F"",""CORPORAL""],[""B_G_Soldier_GL_F"",""PRIVATE""],[""B_G_Soldier_LAT_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_TL_F"",""SERGEANT""],[""B_G_Soldier_LAT_F"",""CORPORAL""],[""B_G_Soldier_LAT_F"",""PRIVATE""],[""B_G_Soldier_LAT_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_GL_F"",""CORPORAL""],[""B_G_Soldier_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_M_F"",""CORPORAL""],[""B_G_Soldier_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Sharpshooter_F"",""SERGEANT""],[""B_G_Soldier_M_F"",""CORPORAL""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_SL_F"",""SERGEANT""],[""B_G_Sharpshooter_F"",""CORPORAL""],[""B_G_Soldier_AR_F"",""PRIVATE""],[""B_G_Soldier_A_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_SL_F"",""SERGEANT""],[""B_G_soldier_AR_F"",""PRIVATE""],[""B_G_soldier_GL_F"",""CORPORAL""],[""B_G_soldier_LAT2_F"",""PRIVATE""],[""B_G_soldier_M_F"",""PRIVATE""],[""B_G_soldier_F"",""CORPORAL""],[""B_G_soldier_F"",""PRIVATE""],[""B_G_medic_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_soldier_TL_F"",""SERGEANT""],[""B_G_soldier_AR_F"",""CORPORAL""],[""B_G_soldier_F"",""PRIVATE""],[""B_G_soldier_LAT2_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_TL_F"",""SERGEANT""],[""B_G_Soldier_AR_F"",""CORPORAL""],[""B_G_medic_F"",""PRIVATE""],[""B_G_medic_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_TL_F"",""SERGEANT""],[""B_G_engineer_F"",""CORPORAL""],[""B_G_Soldier_exp_F"",""PRIVATE""],[""B_G_Soldier_exp_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""B_G_Soldier_TL_F"",""SERGEANT""],[""B_G_Soldier_AR_F"",""CORPORAL""],[""B_G_engineer_F"",""PRIVATE""],[""B_G_engineer_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""I_C_Soldier_Para_2_F"",""SERGEANT""],[""I_C_Soldier_Para_4_F"",""PRIVATE""],[""I_C_Soldier_Para_1_F"",""CORPORAL""],[""I_C_Soldier_Para_3_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""I_C_Soldier_Para_6_F"",""SERGEANT""],[""I_C_Soldier_Para_5_F"",""PRIVATE""],[""I_C_Soldier_Para_7_F"",""CORPORAL""],[""I_C_Soldier_Para_8_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""I_C_Soldier_Para_2_F"",""SERGEANT""],[""I_C_Soldier_Para_4_F"",""PRIVATE""],[""I_C_Soldier_Para_6_F"",""SERGEANT""],[""I_C_Soldier_Para_1_F"",""CORPORAL""],[""I_C_Soldier_Para_7_F"",""CORPORAL""],[""I_C_Soldier_Para_5_F"",""PRIVATE""],[""I_C_Soldier_Para_8_F"",""PRIVATE""],[""I_C_Soldier_Para_3_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""I_C_Soldier_Bandit_4_F"",""SERGEANT""],[""I_C_Soldier_Bandit_3_F"",""PRIVATE""],[""I_C_Soldier_Bandit_5_F"",""CORPORAL""],[""I_C_Soldier_Bandit_1_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""I_C_Soldier_Bandit_6_F"",""SERGEANT""],[""I_C_Soldier_Bandit_2_F"",""PRIVATE""],[""I_C_Soldier_Bandit_7_F"",""CORPORAL""],[""I_C_Soldier_Bandit_8_F"",""PRIVATE""]]]"
+22:16:29 "INFANTRY GROUPS FOR PATROL [[[""I_C_Soldier_Bandit_4_F"",""SERGEANT""],[""I_C_Soldier_Bandit_3_F"",""PRIVATE""],[""I_C_Soldier_Bandit_7_F"",""CORPORAL""],[""I_C_Soldier_Bandit_5_F"",""CORPORAL""],[""I_C_Soldier_Bandit_6_F"",""SERGEANT""],[""I_C_Soldier_Bandit_2_F"",""PRIVATE""],[""I_C_Soldier_Bandit_8_F"",""PRIVATE""],[""I_C_Soldier_Bandit_1_F"",""PRIVATE""]]]"
+22:16:30 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 soldier[B_soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:30 "[SCRIPT] servidor_bots_ape.sqf BEGIN"
+22:16:30 "[BRPVP] FPS = 142."
+22:16:30 "[BRPVP AI ON FOOT HELI] _start = [-3106.77,3921.58,500]"
+22:16:30 Duplicate HitPoint name 'HitTurret' in 'B_Heli_Transport_03_F'
+22:16:30 Duplicate HitPoint name 'HitGun' in 'B_Heli_Transport_03_F'
+22:16:30 Duplicate HitPoint name 'HitTurret' in 'B_Heli_Transport_03_F'
+22:16:30 Duplicate HitPoint name 'HitGun' in 'B_Heli_Transport_03_F'
+22:16:31 "[BRPVP AI ON FOOT HELI] _start = [31140.9,30287.2,500]"
+22:16:31 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 "[BRPVP AI ON FOOT HELI] _start = [34567.1,25506.3,500]"
+22:16:31 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 "[BRPVP AI ON FOOT HELI] _start = [21161.5,36293.3,500]"
+22:16:31 soldier[B_G_Soldier_LAT2_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:31 soldier[B_G_Soldier_LAT2_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 "[BRPVP AI ON FOOT HELI] _start = [36362,20907.5,500]"
+22:16:32 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 "[BRPVP AI ON FOOT HELI] _start = [15529.5,37081.7,500]"
+22:16:32 soldier[B_G_Soldier_LAT2_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_LAT2_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 "[BRPVP AI ON FOOT HELI] _start = [33378,27493.1,500]"
+22:16:32 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:32 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:33 "[BRPVP AI ON FOOT HELI] _start = [358.878,31070.7,500]"
+22:16:33 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:33 soldier[B_G_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:33 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:33 soldier[B_G_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:33 "[BRPVP AI ON FOOT HELI] _start = [11212.5,-5962.7,500]"
+22:16:33 "[BRPVP AI ON FOOT HELI] _start = [-823.293,869.997,500]"
+22:16:34 "[SCRIPT] servidor_bots_ape.sqf END: 4"
+22:16:34 "[SCRIPT] servidor_revoltosos.sqf BEGIN"
+22:16:35 "[BRPVP] FPS = 114."
+22:16:35 "[SCRIPT] servidor_revoltosos.sqf END: 2"
+22:16:36 Duplicate HitPoint name 'HitGun' in 'B_T_Static_AT_F'
+22:16:36 Duplicate HitPoint name 'HitTurret' in 'B_T_Static_AT_F'
+22:16:36 Dimensions in class B_T_Static_AT_F should be an array of size 2.
+22:16:36 Duplicate HitPoint name 'HitGun' in 'B_HMG_01_high_F'
+22:16:36 Duplicate HitPoint name 'HitTurret' in 'B_HMG_01_high_F'
+22:16:36 Dimensions in class B_HMG_01_high_F should be an array of size 2.
+22:16:37 soldier[B_T_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:37 soldier[B_T_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:38 soldier[B_HeavyGunner_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:38 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:38 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:38 soldier[B_HeavyGunner_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:38 soldier[B_soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:38 soldier[B_soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:40 soldier[B_T_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:40 soldier[B_T_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:40 soldier[B_T_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:41 Fresnel n must be >0, given n=0,k=0
+22:16:41 Fresnel k must be >0, given n=0.001,k=0
+22:16:41 "[BRPVP] FPS = 40."
+22:16:45 soldier[B_recon_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:45 soldier[B_recon_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:45 soldier[B_HeavyGunner_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:45 soldier[B_recon_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:45 soldier[B_recon_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:45 soldier[B_HeavyGunner_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:46 "[BRPVP] FPS = 50."
+22:16:51 "[BRPVP] FPS = 46."
+22:16:56 "[BRPVP] FPS = 39."
+22:16:57 "[CHECK FOR NULL EV_Null] 0"
+22:16:58 soldier[B_HeavyGunner_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_T_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_T_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_T_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 soldier[B_T_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:16:58 Duplicate HitPoint name 'HitGun' in 'I_HMG_01_high_F'
+22:16:58 Duplicate HitPoint name 'HitTurret' in 'I_HMG_01_high_F'
+22:16:58 Dimensions in class I_HMG_01_high_F should be an array of size 2.
+22:17:01 "[BRPVP] FPS = 154."
+22:17:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,144,0.0769958]"
+22:17:06 "[BRPVP] FPS = 119."
+22:17:11 "[BRPVP] FPS = 147."
+22:17:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,164,0.0339966]"
+22:17:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:17:15 "********************* MASS SAVE PLAYERS ************************"
+22:17:15 "******************* MASS SAVE END PLAYERS **********************"
+22:17:15 "********************* MASS SAVE VEHICLES ***********************"
+22:17:15 "[5 VEHICLES SAVED!]"
+22:17:15 "******************* MASS SAVE END VEHICLES *********************"
+22:17:16 "[BRPVP] FPS = 142."
+22:17:21 "[BRPVP] FPS = 119."
+22:17:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,164,0.0339966]"
+22:17:26 "[BRPVP] FPS = 148."
+22:17:31 "[BRPVP] FPS = 146."
+22:17:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,164,0.0649872]"
+22:17:36 "[BRPVP] FPS = 151."
+22:17:41 "[BRPVP] FPS = 147."
+22:17:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,164,0.0359955]"
+22:17:46 "======== LOGIN_EH - IS BANNED?: 76561198323234299 | [1,[]] ======"
+22:17:46 "[BRPVP] FPS = 137."
+22:17:51 "[BRPVP] FPS = 137."
+22:17:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,164,0.0659943]"
+22:17:56 "[BRPVP] FPS = 114."
+22:18:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0550079]"
+22:18:01 "[BRPVP] FPS = 103."
+22:18:06 "[BRPVP] FPS = 100."
+22:18:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0540009]"
+22:18:11 "[BRPVP] FPS = 100."
+22:18:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:18:15 "********************* MASS SAVE PLAYERS ************************"
+22:18:15 "******************* MASS SAVE END PLAYERS **********************"
+22:18:15 "********************* MASS SAVE VEHICLES ***********************"
+22:18:15 "[0 VEHICLES SAVED!]"
+22:18:15 "******************* MASS SAVE END VEHICLES *********************"
+22:18:16 "[BRPVP] FPS = 104."
+22:18:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0720062]"
+22:18:21 "[BRPVP] FPS = 107."
+22:18:26 "[BRPVP] FPS = 104."
+22:18:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0550079]"
+22:18:31 "[BRPVP] FPS = 102."
+22:18:36 "[BRPVP] FPS = 97."
+22:18:38 "----------------------------------------------------------------------------------"
+22:18:38 "---- "
+22:18:38 "---- [SELECT: CHECK IF PLAYER IS ON DB AND IS ALIVE]"
+22:18:38 "---- _key = ""0:P1.75228e+006:checkIfPlayerOnDb:76561198323234299_ADM""."
+22:18:38 "---- _resultado = ""[1,[[1]]]""."
+22:18:38 "----------------------------------------------------------------------------------"
+22:18:38 "======== GET LAST PVE HACK DATE ======"
+22:18:38 "======== _key: 0:P1.75228e+006:getLastPveHackDate:76561198323234299_ADM | _result: [1,[[[0,0,0,0,0,0]]]] | _delta: 738128 ======"
+22:18:39 "----------------------------------------------------------------------------------"
+22:18:39 "---- "
+22:18:39 "---- [GET PLAYER ON DB]"
+22:18:39 "---- _key = ""0:P1.75228e+006:getPlayer:76561198323234299_ADM""."
+22:18:39 "---- _resultado = ""[1,[[[[""""ItemCompass"""",""""ItemWatch"""",""""ItemRadio"""",""""ItemGPS"""",""""Rangefinder""""],[""""arifle_SPAR_01_GL_snd_F"""",[""""muzzle_snds_m_snd_F"""",""""acc_flashlight"""",""""optic_ERCO_snd_F"""",""""""""],[""""30Rnd_556x45_Stanag_Sand"""",""""1Rnd_SmokeRed_Grenade_shell""""]],["""""""",["""""""","""""""","""""""",""""""""],[]],[""""hgun_Pistol_heavy_02_F"""",["""""""",""""acc_flashlight_pistol"""",""""optic_Yorris"""",""""""""],[""""6Rnd_45ACP_Cylinder""""]],[]],[[""""B_Bergen_mcamo_F"""",[[[],[]],[[""""ToolKit"""",""""Medikit""""],[1,1]],[[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""1Rnd_HE_Grenade_shell"""",1],[""""1Rnd_HE_Grenade_shell"""",1],[""""1Rnd_HE_Grenade_shell"""",1],[""""1Rnd_HE_Grenade_shell"
+22:18:39 "----------------------------------------------------------------------------------"
+22:18:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0529938]"
+22:18:41 "[BRPVP] FPS = 108."
+22:18:46 "[BRPVP] FPS = 106."
+22:18:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0509949]"
+22:18:51 "[BRPVP] FPS = 124."
+22:18:56 "[BRPVP] FPS = 118."
+22:19:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.048996]"
+22:19:01 "[BRPVP] FPS = 120."
+22:19:04 Client: Remote object 4:0 not found
+22:19:06 "[BRPVP] FPS = 119."
+22:19:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,165,0.052002]"
+22:19:11 "[BRPVP] FPS = 130."
+22:19:12 Warning: Cleanup player - person 2:2796 not found
+22:19:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:19:15 "********************* MASS SAVE PLAYERS ************************"
+22:19:15 "******************* MASS SAVE END PLAYERS **********************"
+22:19:15 "********************* MASS SAVE VEHICLES ***********************"
+22:19:15 "[0 VEHICLES SAVED!]"
+22:19:15 "******************* MASS SAVE END VEHICLES *********************"
+22:19:16 "[BRPVP] FPS = 132."
+22:19:19 "======== LOGIN_EH - IS BANNED?: 76561198323234299 | [1,[]] ======"
+22:19:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [0,165,0.0400085]"
+22:19:21 "[BRPVP] FPS = 131."
+22:19:24 "----------------------------------------------------------------------------------"
+22:19:24 "---- "
+22:19:24 "---- [SELECT: CHECK IF PLAYER IS ON DB AND IS ALIVE]"
+22:19:24 "---- _key = ""0:P1.75228e+006:checkIfPlayerOnDb:76561198323234299_ADM""."
+22:19:24 "---- _resultado = ""[1,[[1]]]""."
+22:19:24 "----------------------------------------------------------------------------------"
+22:19:24 "======== GET LAST PVE HACK DATE ======"
+22:19:24 "======== _key: 0:P1.75228e+006:getLastPveHackDate:76561198323234299_ADM | _result: [1,[[[0,0,0,0,0,0]]]] | _delta: 738128 ======"
+22:19:24 "----------------------------------------------------------------------------------"
+22:19:24 "---- "
+22:19:24 "---- [GET PLAYER ON DB]"
+22:19:24 "---- _key = ""0:P1.75228e+006:getPlayer:76561198323234299_ADM""."
+22:19:24 "---- _resultado = ""[1,[[[[""""ItemCompass"""",""""ItemWatch"""",""""ItemRadio"""",""""ItemGPS"""",""""Rangefinder""""],[""""arifle_SPAR_01_GL_snd_F"""",[""""muzzle_snds_m_snd_F"""",""""acc_flashlight"""",""""optic_ERCO_snd_F"""",""""""""],[""""30Rnd_556x45_Stanag_Sand"""",""""1Rnd_SmokeRed_Grenade_shell""""]],["""""""",["""""""","""""""","""""""",""""""""],[]],[""""hgun_Pistol_heavy_02_F"""",["""""""",""""acc_flashlight_pistol"""",""""optic_Yorris"""",""""""""],[""""6Rnd_45ACP_Cylinder""""]],[]],[[""""B_Bergen_mcamo_F"""",[[[],[]],[[""""ToolKit"""",""""Medikit""""],[1,1]],[[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""150Rnd_556x45_Drum_Mag_F"""",150],[""""1Rnd_HE_Grenade_shell"""",1],[""""1Rnd_HE_Grenade_shell"""",1],[""""1Rnd_HE_Grenade_shell"""",1],[""""1Rnd_HE_Grenade_shell"
+22:19:24 "----------------------------------------------------------------------------------"
+22:19:25 Server: Object 4:11 not found (message Type_96)
+22:19:25 Server: Object 4:11 not found (message Type_460)
+22:19:25 Server: Object 4:11 not found (message Type_124)
+22:19:27 "[BRPVP] FPS = 112."
+22:19:28 "----------------------------------------------------------------------------------"
+22:19:28 "---- [RECORD LOGIN NAME ON DB]"
+22:19:28 "---- _key = 1:P1.75228e+006:recordLogInName:1:75Brigand."
+22:19:28 "---- _resultado = """"."
+22:19:28 "----------------------------------------------------------------------------------"
+22:19:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0549927]"
+22:19:32 "[BRPVP] FPS = 112."
+22:19:37 "[BRPVP] FPS = 108."
+22:19:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0480042]"
+22:19:42 "[BRPVP] FPS = 124."
+22:19:47 "[BRPVP] FPS = 121."
+22:19:47 "============= PLAYERS FPS BEGIN ============="
+22:19:47 "[29.8241,""75Brigand""]"
+22:19:47 "Number of players: 1"
+22:19:47 "Average FPS: 30"
+22:19:47 "============== PLAYERS FPS END =============="
+22:19:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0499878]"
+22:19:52 "[BRPVP] FPS = 123."
+22:19:57 "[BRPVP] FPS = 123."
+22:20:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0490112]"
+22:20:02 "[BRPVP] FPS = 119."
+22:20:07 "[BRPVP] FPS = 123."
+22:20:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0499878]"
+22:20:12 "[BRPVP] FPS = 126."
+22:20:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:20:16 "********************* MASS SAVE PLAYERS ************************"
+22:20:16 "******************* MASS SAVE END PLAYERS **********************"
+22:20:16 "********************* MASS SAVE VEHICLES ***********************"
+22:20:16 "[0 VEHICLES SAVED!]"
+22:20:16 "******************* MASS SAVE END VEHICLES *********************"
+22:20:16 "----------------------------------------------------------------------------------"
+22:20:16 "---- "
+22:20:16 "---- [UPDATE PLAYER ON DB]"
+22:20:16 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:20:16 "---- _resultado = """"."
+22:20:16 "----------------------------------------------------------------------------------"
+22:20:17 "[BRPVP] FPS = 120."
+22:20:17 "============= PLAYERS FPS BEGIN ============="
+22:20:17 "[58.7605,""75Brigand""]"
+22:20:17 "Number of players: 1"
+22:20:17 "Average FPS: 59"
+22:20:17 "============== PLAYERS FPS END =============="
+22:20:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0499878]"
+22:20:22 "[BRPVP] FPS = 120."
+22:20:27 "[BRPVP] FPS = 119."
+22:20:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0500183]"
+22:20:32 "[BRPVP] FPS = 121."
+22:20:37 "[BRPVP] FPS = 123."
+22:20:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0500183]"
+22:20:42 "[BRPVP] FPS = 122."
+22:20:47 "[BRPVP] FPS = 125."
+22:20:47 "============= PLAYERS FPS BEGIN ============="
+22:20:47 "[23.9032,""75Brigand""]"
+22:20:47 "Number of players: 1"
+22:20:47 "Average FPS: 24"
+22:20:47 "============== PLAYERS FPS END =============="
+22:20:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0490112]"
+22:20:52 "[BRPVP] FPS = 124."
+22:20:57 "[BRPVP] FPS = 123."
+22:21:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0490112]"
+22:21:02 "[BRPVP] FPS = 125."
+22:21:07 "[BRPVP] FPS = 123."
+22:21:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0549927]"
+22:21:12 "[BRPVP] FPS = 121."
+22:21:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:21:16 "********************* MASS SAVE PLAYERS ************************"
+22:21:16 "******************* MASS SAVE END PLAYERS **********************"
+22:21:16 "********************* MASS SAVE VEHICLES ***********************"
+22:21:16 "[0 VEHICLES SAVED!]"
+22:21:16 "******************* MASS SAVE END VEHICLES *********************"
+22:21:16 "----------------------------------------------------------------------------------"
+22:21:16 "---- "
+22:21:16 "---- [UPDATE PLAYER ON DB]"
+22:21:16 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:21:16 "---- _resultado = """"."
+22:21:16 "----------------------------------------------------------------------------------"
+22:21:17 "[BRPVP] FPS = 120."
+22:21:17 "============= PLAYERS FPS BEGIN ============="
+22:21:17 "[19.6017,""75Brigand""]"
+22:21:17 "Number of players: 1"
+22:21:17 "Average FPS: 20"
+22:21:17 "============== PLAYERS FPS END =============="
+22:21:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0480042]"
+22:21:22 "[BRPVP] FPS = 121."
+22:21:27 "[BRPVP] FPS = 118."
+22:21:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.04599]"
+22:21:32 "[BRPVP] FPS = 117."
+22:21:37 "[BRPVP] FPS = 117."
+22:21:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0479736]"
+22:21:42 "[BRPVP] FPS = 116."
+22:21:47 "[BRPVP] FPS = 117."
+22:21:47 "============= PLAYERS FPS BEGIN ============="
+22:21:47 "[19.4882,""75Brigand""]"
+22:21:47 "Number of players: 1"
+22:21:47 "Average FPS: 19"
+22:21:47 "============== PLAYERS FPS END =============="
+22:21:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0500183]"
+22:21:52 "[BRPVP] FPS = 118."
+22:21:53 Strange convex component61 in a3\structures_f_enoch\military\barracks\barracks_06_f.p3d:geometryView
+22:21:56 I_E_Offroad_01_comms_F: gunnerlf - unknown animation source gunner_lf_turn (defined in AnimationSources::gunner_lf_turn)
+22:21:56 I_E_Offroad_01_comms_F: gunnerlf_pos - unknown animation source gunner_lf_turn (defined in AnimationSources::gunner_lf_turn)
+22:21:56 I_E_Offroad_01_comms_F: gunnerrf - unknown animation source gunner_rf_turn (defined in AnimationSources::gunner_rf_turn)
+22:21:56 I_E_Offroad_01_comms_F: gunnerrf_pos - unknown animation source gunner_rf_turn (defined in AnimationSources::gunner_rf_turn)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_1_damper0_x - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_1_damper0_y - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_2_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_2_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_3_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_3_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_4_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_1_4_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_1_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_1_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_1_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_2_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_2_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_3_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_3_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_4_damper_x - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: antenna_2_4_damper_y - unknown animation source damper (defined in AnimationSources::Wheel_2_1_damper)
+22:21:56 I_E_Offroad_01_comms_F: hidecover - unknown animation source door (defined in AnimationSources::HideCover)
+22:21:56 I_E_Offroad_01_comms_F: opendoor3 - unknown animation source door (defined in AnimationSources::OpenDoor3)
+22:21:56 I_E_Offroad_01_comms_F: opendoor3_tailgate - unknown animation source door (defined in AnimationSources::OpenDoor3)
+22:21:56 I_E_Truck_02_transport_F: door_lf - unknown animation source door (defined in AnimationSources::Door_LF)
+22:21:56 I_E_Truck_02_transport_F: door_rf - unknown animation source door (defined in AnimationSources::Door_RF)
+22:21:56 soldier[I_E_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:21:57 "[BRPVP] FPS = 98."
+22:21:58 Duplicate HitPoint name 'HitGun' in 'I_E_Static_AT_F'
+22:21:58 Duplicate HitPoint name 'HitTurret' in 'I_E_Static_AT_F'
+22:21:58 Dimensions in class I_E_Static_AT_F should be an array of size 2.
+22:21:58 Duplicate HitPoint name 'HitGun' in 'I_E_HMG_02_high_F'
+22:21:58 Duplicate HitPoint name 'HitTurret' in 'I_E_HMG_02_high_F'
+22:21:58 Dimensions in class I_E_HMG_02_high_F should be an array of size 2.
+22:21:58 Duplicate HitPoint name 'HitGun' in 'I_E_Static_AA_F'
+22:21:58 Duplicate HitPoint name 'HitTurret' in 'I_E_Static_AA_F'
+22:21:58 Dimensions in class I_E_Static_AA_F should be an array of size 2.
+22:21:59 Duplicate HitPoint name 'HitTurret' in 'I_MRAP_03_hmg_F'
+22:21:59 Duplicate HitPoint name 'HitGun' in 'I_MRAP_03_hmg_F'
+22:22:00 soldier[I_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:00 soldier[I_Soldier_GL_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:00 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:00 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:01 soldier[I_E_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:01 soldier[I_E_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,165,0.0559998]"
+22:22:01 soldier[I_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 soldier[I_Soldier_LAT2_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 soldier[I_Soldier_LAT2_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 soldier[I_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 soldier[I_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 soldier[I_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 soldier[I_Soldier_AA_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:02 "[BRPVP] FPS = 91."
+22:22:07 "[BRPVP] FPS = 75."
+22:22:10 soldier[I_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:10 Duplicate HitPoint name 'HitGun' in 'I_HMG_02_high_F'
+22:22:10 Duplicate HitPoint name 'HitTurret' in 'I_HMG_02_high_F'
+22:22:10 Dimensions in class I_HMG_02_high_F should be an array of size 2.
+22:22:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,201,0.156006]"
+22:22:11 soldier[I_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:11 soldier[I_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:12 soldier[I_E_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:12 Duplicate HitPoint name 'HitGun' in 'I_static_AA_F'
+22:22:12 Duplicate HitPoint name 'HitTurret' in 'I_static_AA_F'
+22:22:12 Dimensions in class I_static_AA_F should be an array of size 2.
+22:22:12 Duplicate HitPoint name 'HitGun' in 'I_C_HMG_02_F'
+22:22:12 Duplicate HitPoint name 'HitTurret' in 'I_C_HMG_02_F'
+22:22:12 Dimensions in class I_C_HMG_02_F should be an array of size 2.
+22:22:12 "[BRPVP] FPS = 88."
+22:22:14 I_E_APC_tracked_03_cannon_F: cannon_ready_light - unknown animation source muzzle_hide_cannon
+22:22:14 soldier[I_E_Crew_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:14 soldier[I_G_Sharpshooter_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:14 Duplicate HitPoint name 'HitGun' in 'I_G_HMG_02_high_F'
+22:22:14 Duplicate HitPoint name 'HitTurret' in 'I_G_HMG_02_high_F'
+22:22:14 Dimensions in class I_G_HMG_02_high_F should be an array of size 2.
+22:22:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:22:15 Strange convex component52 in a3\static_f_sams\sam_system_03\sam_system_03_f.p3d:geometryFire
+22:22:15 Strange convex component62 in a3\static_f_sams\sam_system_03\sam_system_03_f.p3d:geometryFire
+22:22:15 Duplicate HitPoint name 'HitGun' in 'I_E_SAM_System_03_F'
+22:22:15 Duplicate HitPoint name 'HitTurret' in 'I_E_SAM_System_03_F'
+22:22:15 Dimensions in class I_E_SAM_System_03_F should be an array of size 2.
+22:22:16 I_APC_tracked_03_cannon_F: cannon_ready_light - unknown animation source muzzle_hide_cannon
+22:22:16 "********************* MASS SAVE PLAYERS ************************"
+22:22:16 "******************* MASS SAVE END PLAYERS **********************"
+22:22:16 "********************* MASS SAVE VEHICLES ***********************"
+22:22:16 "[0 VEHICLES SAVED!]"
+22:22:16 "******************* MASS SAVE END VEHICLES *********************"
+22:22:16 "----------------------------------------------------------------------------------"
+22:22:16 "---- "
+22:22:16 "---- [UPDATE PLAYER ON DB]"
+22:22:16 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:22:16 "---- _resultado = """"."
+22:22:16 "----------------------------------------------------------------------------------"
+22:22:17 soldier[I_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:17 soldier[I_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:17 soldier[I_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:17 soldier[I_Soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:17 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:17 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:17 "[BRPVP] FPS = 68."
+22:22:17 "============= PLAYERS FPS BEGIN ============="
+22:22:17 "[18.3715,""75Brigand""]"
+22:22:17 "Number of players: 1"
+22:22:17 "Average FPS: 18"
+22:22:17 "============== PLAYERS FPS END =============="
+22:22:18 Strange convex component08 in a3\weapons_f_enoch\rifles\msbs\msbs65_ubs_f.p3d:geometryView
+22:22:18 soldier[I_E_Soldier_TL_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:18 soldier[I_E_Soldier_AR_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:18 soldier[I_E_Soldier_GL_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:19 soldier[I_E_Soldier_GL_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:19 soldier[I_E_Soldier_GL_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:21 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:21 soldier[I_Soldier_LAT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,201,0.268982]"
+22:22:21 soldier[I_G_Sharpshooter_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:22 "[BRPVP] FPS = 53."
+22:22:23 Duplicate HitPoint name 'HitGun' in 'I_HMG_01_F'
+22:22:23 Duplicate HitPoint name 'HitTurret' in 'I_HMG_01_F'
+22:22:23 Dimensions in class I_HMG_01_F should be an array of size 2.
+22:22:24 soldier[I_E_Helipilot_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:25 soldier[I_E_Helipilot_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:22:28 "[BRPVP] FPS = 40."
+22:22:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.251984]"
+22:22:33 "[BRPVP] FPS = 40."
+22:22:38 "[BRPVP] FPS = 48."
+22:22:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.251007]"
+22:22:43 "[BRPVP] FPS = 43."
+22:22:48 "[BRPVP] FPS = 40."
+22:22:48 "============= PLAYERS FPS BEGIN ============="
+22:22:48 "[19.4133,""75Brigand""]"
+22:22:48 "Number of players: 1"
+22:22:48 "Average FPS: 19"
+22:22:48 "============== PLAYERS FPS END =============="
+22:22:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.242981]"
+22:22:53 "[BRPVP] FPS = 44."
+22:22:58 "[BRPVP] FPS = 50."
+22:23:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.190979]"
+22:23:03 "[BRPVP] FPS = 50."
+22:23:08 "[BRPVP] FPS = 50."
+22:23:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.230988]"
+22:23:13 "[BRPVP] FPS = 41."
+22:23:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:23:17 "********************* MASS SAVE PLAYERS ************************"
+22:23:17 "******************* MASS SAVE END PLAYERS **********************"
+22:23:17 "********************* MASS SAVE VEHICLES ***********************"
+22:23:17 "[0 VEHICLES SAVED!]"
+22:23:17 "******************* MASS SAVE END VEHICLES *********************"
+22:23:17 "----------------------------------------------------------------------------------"
+22:23:17 "---- "
+22:23:17 "---- [UPDATE PLAYER ON DB]"
+22:23:17 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:23:17 "---- _resultado = """"."
+22:23:17 "----------------------------------------------------------------------------------"
+22:23:18 "[BRPVP] FPS = 38."
+22:23:18 "============= PLAYERS FPS BEGIN ============="
+22:23:18 "[19.5303,""75Brigand""]"
+22:23:18 "Number of players: 1"
+22:23:18 "Average FPS: 20"
+22:23:18 "============== PLAYERS FPS END =============="
+22:23:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.268982]"
+22:23:23 "[BRPVP] FPS = 47."
+22:23:28 "[BRPVP] FPS = 41."
+22:23:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.205994]"
+22:23:33 "[BRPVP] FPS = 41."
+22:23:38 "[BRPVP] FPS = 47."
+22:23:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.210999]"
+22:23:43 "[BRPVP] FPS = 45."
+22:23:48 "[BRPVP] FPS = 48."
+22:23:48 "============= PLAYERS FPS BEGIN ============="
+22:23:48 "[19.5633,""75Brigand""]"
+22:23:48 "Number of players: 1"
+22:23:48 "Average FPS: 20"
+22:23:48 "============== PLAYERS FPS END =============="
+22:23:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.191986]"
+22:23:53 "[BRPVP] FPS = 45."
+22:23:59 "[BRPVP] FPS = 40."
+22:24:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.221008]"
+22:24:04 "[BRPVP] FPS = 40."
+22:24:09 "[BRPVP] FPS = 48."
+22:24:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.208008]"
+22:24:14 "[BRPVP] FPS = 47."
+22:24:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:24:18 "********************* MASS SAVE PLAYERS ************************"
+22:24:18 "******************* MASS SAVE END PLAYERS **********************"
+22:24:18 "********************* MASS SAVE VEHICLES ***********************"
+22:24:18 "[0 VEHICLES SAVED!]"
+22:24:18 "******************* MASS SAVE END VEHICLES *********************"
+22:24:18 "----------------------------------------------------------------------------------"
+22:24:18 "---- "
+22:24:18 "---- [UPDATE PLAYER ON DB]"
+22:24:18 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:24:18 "---- _resultado = """"."
+22:24:18 "----------------------------------------------------------------------------------"
+22:24:19 "[BRPVP] FPS = 48."
+22:24:19 "============= PLAYERS FPS BEGIN ============="
+22:24:19 "[19.5256,""75Brigand""]"
+22:24:19 "Number of players: 1"
+22:24:19 "Average FPS: 20"
+22:24:19 "============== PLAYERS FPS END =============="
+22:24:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.21698]"
+22:24:24 "[BRPVP] FPS = 50."
+22:24:29 "[BRPVP] FPS = 46."
+22:24:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.174011]"
+22:24:34 "[BRPVP] FPS = 50."
+22:24:39 "[BRPVP] FPS = 43."
+22:24:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.451965]"
+22:24:44 "[BRPVP] FPS = 41."
+22:24:49 "[BRPVP] FPS = 42."
+22:24:49 "============= PLAYERS FPS BEGIN ============="
+22:24:49 "[19.5106,""75Brigand""]"
+22:24:49 "Number of players: 1"
+22:24:49 "Average FPS: 20"
+22:24:49 "============== PLAYERS FPS END =============="
+22:24:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.345032]"
+22:24:54 "[BRPVP] FPS = 40."
+22:24:59 "[BRPVP] FPS = 42."
+22:25:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.28302]"
+22:25:04 "[BRPVP] FPS = 41."
+22:25:10 "[BRPVP] FPS = 51."
+22:25:11 "======== LOGIN_EH - IS BANNED?: 76561199012601581 | [1,[]] ======"
+22:25:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [1,278,0.219971]"
+22:25:15 "[BRPVP] FPS = 44."
+22:25:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:25:19 "********************* MASS SAVE PLAYERS ************************"
+22:25:19 "******************* MASS SAVE END PLAYERS **********************"
+22:25:19 "********************* MASS SAVE VEHICLES ***********************"
+22:25:19 "[0 VEHICLES SAVED!]"
+22:25:19 "******************* MASS SAVE END VEHICLES *********************"
+22:25:19 "----------------------------------------------------------------------------------"
+22:25:19 "---- "
+22:25:19 "---- [UPDATE PLAYER ON DB]"
+22:25:19 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:25:19 "---- _resultado = """"."
+22:25:19 "----------------------------------------------------------------------------------"
+22:25:20 "[BRPVP] FPS = 40."
+22:25:20 "============= PLAYERS FPS BEGIN ============="
+22:25:20 "[19.5196,""75Brigand""]"
+22:25:20 "Number of players: 1"
+22:25:20 "Average FPS: 20"
+22:25:20 "============== PLAYERS FPS END =============="
+22:25:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.234009]"
+22:25:25 "[BRPVP] FPS = 40."
+22:25:30 "[BRPVP] FPS = 41."
+22:25:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.321045]"
+22:25:33 "----------------------------------------------------------------------------------"
+22:25:33 "---- "
+22:25:33 "---- [SELECT: CHECK IF PLAYER IS ON DB AND IS ALIVE]"
+22:25:33 "---- _key = ""0:P1.75228e+006:checkIfPlayerOnDb:76561199012601581_ADM""."
+22:25:33 "---- _resultado = ""[1,[]]""."
+22:25:33 "----------------------------------------------------------------------------------"
+22:25:33 "======== GET LAST PVE HACK DATE ======"
+22:25:33 "----------------------------------------------------------------------------------"
+22:25:33 "---- "
+22:25:33 "---- [INSERT A NEW PLAYER ON DB]"
+22:25:33 "---- PLAYER..."
+22:25:33 "---- _key = 0:P1.75228e+006:createPlayer:76561199012601581_ADM:[[],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[]]:[["""",[[[],[]],[[],[]],[[],[]]]],["""",[[[],[]],[[],[]],[[],[]]]],["""",[[[],[]],[[],[]],[[],[]]]]]:[0,[0,0,0]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[100,100],0]:[""C_man_polo_1_F"","""",""""]::[]:Rainbow--爱酱:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]:0:250000:[]:1.5e+006."
+22:25:33 "---- _resultado = ""[1,[]]""."
+22:25:33 "---- ID BD..."
+22:25:33 "---- _key = 0:P1.75228e+006:getIdBdBySteamKey:76561199012601581_ADM."
+22:25:33 "---- _resultado = ""[1,[[25]]]""."
+22:25:33 "----------------------------------------------------------------------------------"
+22:25:33 Error: Object(5 : 3) not found
+22:25:35 "[BRPVP] FPS = 39."
+22:25:40 "[BRPVP] FPS = 42."
+22:25:40 "----------------------------------------------------------------------------------"
+22:25:40 "---- [RECORD LOGIN NAME ON DB]"
+22:25:40 "---- _key = 1:P1.75228e+006:recordLogInName:25:Rainbow--爱酱."
+22:25:40 "---- _resultado = """"."
+22:25:40 "----------------------------------------------------------------------------------"
+22:25:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.34198]"
+22:25:45 "[BRPVP] FPS = 38."
+22:25:50 "[BRPVP] FPS = 43."
+22:25:50 "============= PLAYERS FPS BEGIN ============="
+22:25:50 "[54.6515,""Rainbow--爱酱""]"
+22:25:50 "[19.5392,""75Brigand""]"
+22:25:50 "Number of players: 2"
+22:25:50 "Average FPS: 37"
+22:25:50 "============== PLAYERS FPS END =============="
+22:25:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.289001]"
+22:25:55 "[BRPVP] FPS = 40."
+22:26:00 "[BRPVP] FPS = 44."
+22:26:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.210022]"
+22:26:05 "[BRPVP] FPS = 42."
+22:26:10 "[BRPVP] FPS = 46."
+22:26:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.247009]"
+22:26:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:26:15 "[BRPVP] FPS = 43."
+22:26:19 "********************* MASS SAVE PLAYERS ************************"
+22:26:19 "******************* MASS SAVE END PLAYERS **********************"
+22:26:19 "********************* MASS SAVE VEHICLES ***********************"
+22:26:19 "[0 VEHICLES SAVED!]"
+22:26:19 "******************* MASS SAVE END VEHICLES *********************"
+22:26:19 "----------------------------------------------------------------------------------"
+22:26:19 "---- "
+22:26:19 "---- [UPDATE PLAYER ON DB]"
+22:26:19 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:26:19 "---- _resultado = """"."
+22:26:19 "----------------------------------------------------------------------------------"
+22:26:19 "----------------------------------------------------------------------------------"
+22:26:19 "---- "
+22:26:19 "---- [UPDATE PLAYER ON DB]"
+22:26:19 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[182.271,[13857.1,18292.8,16.4045]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]:hgun_Pistol_heavy_01_F:76561199012601581_ADM:[]:1:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.5e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:26:19 "---- _resultado = """"."
+22:26:19 "----------------------------------------------------------------------------------"
+22:26:20 "[BRPVP] FPS = 46."
+22:26:20 "============= PLAYERS FPS BEGIN ============="
+22:26:20 "[59.7553,""Rainbow--爱酱""]"
+22:26:20 "[19.5264,""75Brigand""]"
+22:26:20 "Number of players: 2"
+22:26:20 "Average FPS: 40"
+22:26:20 "============== PLAYERS FPS END =============="
+22:26:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.23999]"
+22:26:26 "[BRPVP] FPS = 45."
+22:26:31 "[BRPVP] FPS = 45."
+22:26:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.208008]"
+22:26:36 "[BRPVP] FPS = 46."
+22:26:41 "[BRPVP] FPS = 46."
+22:26:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.220032]"
+22:26:46 "[BRPVP] FPS = 47."
+22:26:51 "[BRPVP] FPS = 46."
+22:26:51 "============= PLAYERS FPS BEGIN ============="
+22:26:51 "[57.9686,""Rainbow--爱酱""]"
+22:26:51 "[19.4267,""75Brigand""]"
+22:26:51 "Number of players: 2"
+22:26:51 "Average FPS: 39"
+22:26:51 "============== PLAYERS FPS END =============="
+22:26:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.256958]"
+22:26:56 "[BRPVP] FPS = 48."
+22:27:01 "[BRPVP] FPS = 47."
+22:27:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.192993]"
+22:27:06 "[BRPVP] FPS = 49."
+22:27:11 "[BRPVP] FPS = 46."
+22:27:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.212036]"
+22:27:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:27:16 "[BRPVP] FPS = 48."
+22:27:20 "********************* MASS SAVE PLAYERS ************************"
+22:27:20 "******************* MASS SAVE END PLAYERS **********************"
+22:27:20 "********************* MASS SAVE VEHICLES ***********************"
+22:27:20 "[3 VEHICLES SAVED!]"
+22:27:20 "******************* MASS SAVE END VEHICLES *********************"
+22:27:20 "----------------------------------------------------------------------------------"
+22:27:20 "---- "
+22:27:20 "---- [UPDATE PLAYER ON DB]"
+22:27:20 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:27:20 "---- _resultado = """"."
+22:27:20 "----------------------------------------------------------------------------------"
+22:27:20 "----------------------------------------------------------------------------------"
+22:27:20 "---- "
+22:27:20 "---- [UPDATE PLAYER ON DB]"
+22:27:20 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[207.877,[13878.5,18291.1,17.559]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]:hgun_Pistol_heavy_01_F:76561199012601581_ADM:[]:1:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0166667,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.5e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:27:20 "---- _resultado = """"."
+22:27:20 "----------------------------------------------------------------------------------"
+22:27:21 "[BRPVP] FPS = 47."
+22:27:21 "============= PLAYERS FPS BEGIN ============="
+22:27:21 "[56.0688,""Rainbow--爱酱""]"
+22:27:21 "[19.5162,""75Brigand""]"
+22:27:21 "Number of players: 2"
+22:27:21 "Average FPS: 38"
+22:27:21 "============== PLAYERS FPS END =============="
+22:27:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.246033]"
+22:27:26 "[BRPVP] FPS = 48."
+22:27:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.187988]"
+22:27:31 "[BRPVP] FPS = 47."
+22:27:36 "[BRPVP] FPS = 49."
+22:27:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.207947]"
+22:27:41 "[BRPVP] FPS = 48."
+22:27:46 "[BRPVP] FPS = 51."
+22:27:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.252014]"
+22:27:51 "[BRPVP] FPS = 51."
+22:27:51 "============= PLAYERS FPS BEGIN ============="
+22:27:51 "[59.6024,""Rainbow--爱酱""]"
+22:27:51 "[19.5186,""75Brigand""]"
+22:27:51 "Number of players: 2"
+22:27:51 "Average FPS: 40"
+22:27:51 "============== PLAYERS FPS END =============="
+22:27:56 "[BRPVP] FPS = 50."
+22:28:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.205994]"
+22:28:01 "[BRPVP] FPS = 51."
+22:28:06 "[BRPVP] FPS = 50."
+22:28:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.187012]"
+22:28:12 "[BRPVP] FPS = 51."
+22:28:12 "[BRPVP GET VAULT] Vault with IDX = 0 not found! _resultado = ""[1,[]]""."
+22:28:12 "[BRPVP GET VAULT] Creating Vault."
+22:28:12 "---- CREATED VAULT OF IDX = 0 FOR PLAYER Rainbow--爱酱."
+22:28:12 "---- _key = 0:P1.75228e+006:createVault:76561199012601581_ADM:[[[],[]],[],[[],[]],[[],[]]]:1:[]:0."
+22:28:12 "---- _resultado = ""[1,[]]""."
+22:28:12 "----------------------------------------------------------------------------------"
+22:28:12 "---- "
+22:28:12 "---- [GET VAULT GEAR IDX = 0]"
+22:28:12 "---- _key = ""0:P1.75228e+006:getPlayerVault:76561199012601581_ADM:0""."
+22:28:12 "---- _resultado = ""[1,[[[[[],[]],[],[[],[]],[[],[]]],1,0]]]""."
+22:28:12 "----------------------------------------------------------------------------------"
+22:28:12 Error: Object(5 : 13) not found
+22:28:12 Error: Object(5 : 16) not found
+22:28:12 Error: Object(5 : 19) not found
+22:28:12 Error: Object(5 : 10) not found
+22:28:12 Error: Object(5 : 22) not found
+22:28:12 Error: Object(5 : 25) not found
+22:28:12 Error: Object(5 : 8) not found
+22:28:12 Error: Object(5 : 28) not found
+22:28:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:28:15 "----------------------------------------------------------------------------------"
+22:28:15 "---- PLAYER STEAM_ID: 76561199012601581_ADM"
+22:28:15 "---- [UPDATE VAULT ON DB IDX = 0]"
+22:28:15 "---- _key = 1:P1.75228e+006:saveVault:76561199012601581_ADM:[3,[[""brpvp_main_container"",[[],[],[[],[]],[[],[]]]]]]:1:0."
+22:28:15 "---- _resultado = """"."
+22:28:15 "----------------------------------------------------------------------------------"
+22:28:17 "[BRPVP] FPS = 50."
+22:28:21 "********************* MASS SAVE PLAYERS ************************"
+22:28:21 "******************* MASS SAVE END PLAYERS **********************"
+22:28:21 "********************* MASS SAVE VEHICLES ***********************"
+22:28:21 "[3 VEHICLES SAVED!]"
+22:28:21 "******************* MASS SAVE END VEHICLES *********************"
+22:28:21 "----------------------------------------------------------------------------------"
+22:28:21 "---- "
+22:28:21 "---- [UPDATE PLAYER ON DB]"
+22:28:21 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:28:21 "---- _resultado = """"."
+22:28:21 "----------------------------------------------------------------------------------"
+22:28:21 "----------------------------------------------------------------------------------"
+22:28:21 "---- "
+22:28:21 "---- [UPDATE PLAYER ON DB]"
+22:28:21 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[314.209,[13870.8,18279.3,17.7062]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]:hgun_Pistol_heavy_01_F:76561199012601581_ADM:[]:1:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0333333,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.495e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:28:21 "---- _resultado = """"."
+22:28:21 "----------------------------------------------------------------------------------"
+22:28:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.187988]"
+22:28:22 "[BRPVP] FPS = 51."
+22:28:22 "============= PLAYERS FPS BEGIN ============="
+22:28:22 "[57.5639,""Rainbow--爱酱""]"
+22:28:22 "[19.465,""75Brigand""]"
+22:28:22 "Number of players: 2"
+22:28:22 "Average FPS: 39"
+22:28:22 "============== PLAYERS FPS END =============="
+22:28:27 "[BRPVP] FPS = 49."
+22:28:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.192017]"
+22:28:32 "[BRPVP] FPS = 52."
+22:28:37 "[BRPVP] FPS = 51."
+22:28:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.260986]"
+22:28:42 "[BRPVP] FPS = 53."
+22:28:46 Ragdoll - loading of ragdoll source "Soldier" started.
+22:28:46 Ragdoll - loading of ragdoll source "Soldier" finished successfully.
+22:28:47 "[BRPVP] FPS = 33."
+22:28:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.330994]"
+22:28:52 "[BRPVP] FPS = 34."
+22:28:52 "============= PLAYERS FPS BEGIN ============="
+22:28:52 "[49.3686,""Rainbow--爱酱""]"
+22:28:52 "[19.5323,""75Brigand""]"
+22:28:52 "Number of players: 2"
+22:28:52 "Average FPS: 34"
+22:28:52 "============== PLAYERS FPS END =============="
+22:28:57 "[BRPVP] FPS = 32."
+22:29:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.242004]"
+22:29:02 "[BRPVP] FPS = 35."
+22:29:07 "[BRPVP] FPS = 35."
+22:29:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.242981]"
+22:29:12 "[BRPVP] FPS = 37."
+22:29:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 1."
+22:29:17 "[BRPVP] FPS = 34."
+22:29:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.353027]"
+22:29:21 "********************* MASS SAVE PLAYERS ************************"
+22:29:21 "******************* MASS SAVE END PLAYERS **********************"
+22:29:21 "********************* MASS SAVE VEHICLES ***********************"
+22:29:21 "[7 VEHICLES SAVED!]"
+22:29:21 "******************* MASS SAVE END VEHICLES *********************"
+22:29:22 "----------------------------------------------------------------------------------"
+22:29:22 "---- "
+22:29:22 "---- [UPDATE PLAYER ON DB]"
+22:29:22 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:29:22 "---- _resultado = """"."
+22:29:22 "----------------------------------------------------------------------------------"
+22:29:22 "----------------------------------------------------------------------------------"
+22:29:22 "---- "
+22:29:22 "---- [UPDATE PLAYER ON DB]"
+22:29:22 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[340.773,[3063.7,13174.9,63.2099]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]::76561199012601581_ADM:[]:1:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.495e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:29:22 "---- _resultado = """"."
+22:29:22 "----------------------------------------------------------------------------------"
+22:29:22 "[BRPVP] FPS = 35."
+22:29:22 "============= PLAYERS FPS BEGIN ============="
+22:29:22 "[42.1789,""Rainbow--爱酱""]"
+22:29:22 "[19.4989,""75Brigand""]"
+22:29:22 "Number of players: 2"
+22:29:22 "Average FPS: 31"
+22:29:22 "============== PLAYERS FPS END =============="
+22:29:28 "[BRPVP] FPS = 33."
+22:29:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.275024]"
+22:29:33 "[BRPVP] FPS = 32."
+22:29:38 "[BRPVP] FPS = 34."
+22:29:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,278,0.256958]"
+22:29:42 soldier[B_HeavyGunner_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:29:42 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:29:42 soldier[B_soldier_AT_F]:Some of magazines weren't stored in soldier Vest or Uniform?
+22:29:43 "[BRPVP] FPS = 33."
+22:29:48 "[BRPVP] FPS = 32."
+22:29:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.299988]"
+22:29:53 "[BRPVP] FPS = 33."
+22:29:53 "============= PLAYERS FPS BEGIN ============="
+22:29:53 "[45.0346,""Rainbow--爱酱""]"
+22:29:53 "[19.5118,""75Brigand""]"
+22:29:53 "Number of players: 2"
+22:29:53 "Average FPS: 32"
+22:29:53 "============== PLAYERS FPS END =============="
+22:29:58 "[BRPVP] FPS = 33."
+22:30:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.374023]"
+22:30:03 "[BRPVP] FPS = 34."
+22:30:08 "[BRPVP] FPS = 35."
+22:30:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.30603]"
+22:30:13 "[BRPVP] FPS = 34."
+22:30:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 1."
+22:30:18 "[BRPVP] FPS = 50."
+22:30:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.186951]"
+22:30:22 "********************* MASS SAVE PLAYERS ************************"
+22:30:22 "******************* MASS SAVE END PLAYERS **********************"
+22:30:22 "********************* MASS SAVE VEHICLES ***********************"
+22:30:22 "[7 VEHICLES SAVED!]"
+22:30:22 "******************* MASS SAVE END VEHICLES *********************"
+22:30:22 "----------------------------------------------------------------------------------"
+22:30:22 "---- "
+22:30:22 "---- [UPDATE PLAYER ON DB]"
+22:30:22 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:30:22 "---- _resultado = """"."
+22:30:22 "----------------------------------------------------------------------------------"
+22:30:22 "----------------------------------------------------------------------------------"
+22:30:22 "---- "
+22:30:22 "---- [UPDATE PLAYER ON DB]"
+22:30:22 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[282.346,[16933.1,21879.5,9.41575]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]::76561199012601581_ADM:[]:1:[0,0,0,0,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0666667,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.495e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:30:22 "---- _resultado = """"."
+22:30:22 "----------------------------------------------------------------------------------"
+22:30:23 "[BRPVP] FPS = 52."
+22:30:23 "============= PLAYERS FPS BEGIN ============="
+22:30:23 "[55.6889,""Rainbow--爱酱""]"
+22:30:23 "[19.5101,""75Brigand""]"
+22:30:23 "Number of players: 2"
+22:30:23 "Average FPS: 38"
+22:30:23 "============== PLAYERS FPS END =============="
+22:30:28 "[BRPVP] FPS = 55."
+22:30:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.177002]"
+22:30:33 "[BRPVP] FPS = 56."
+22:30:38 "[BRPVP] FPS = 55."
+22:30:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.177979]"
+22:30:43 "[BRPVP] FPS = 58."
+22:30:48 "[BRPVP] FPS = 57."
+22:30:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.194031]"
+22:30:53 "[BRPVP] FPS = 51."
+22:30:53 "============= PLAYERS FPS BEGIN ============="
+22:30:53 "[56.4445,""Rainbow--爱酱""]"
+22:30:53 "[19.5089,""75Brigand""]"
+22:30:53 "Number of players: 2"
+22:30:53 "Average FPS: 38"
+22:30:53 "============== PLAYERS FPS END =============="
+22:30:58 "[BRPVP] FPS = 55."
+22:31:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.212036]"
+22:31:04 "[BRPVP] FPS = 59."
+22:31:06 No speaker given for 'Terrence Faulkner'
+22:31:06 No speaker given for 'Yang Suan'
+22:31:06 No speaker given for 'Terrence Griffiths'
+22:31:06 No speaker given for 'Dumi Odili'
+22:31:09 "[BRPVP] FPS = 55."
+22:31:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.177002]"
+22:31:14 "[BRPVP] FPS = 57."
+22:31:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:31:19 "[BRPVP] FPS = 55."
+22:31:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.155029]"
+22:31:23 "********************* MASS SAVE PLAYERS ************************"
+22:31:23 "******************* MASS SAVE END PLAYERS **********************"
+22:31:23 "********************* MASS SAVE VEHICLES ***********************"
+22:31:23 "[3 VEHICLES SAVED!]"
+22:31:23 "******************* MASS SAVE END VEHICLES *********************"
+22:31:23 "----------------------------------------------------------------------------------"
+22:31:23 "---- "
+22:31:23 "---- [UPDATE PLAYER ON DB]"
+22:31:23 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:31:23 "---- _resultado = """"."
+22:31:23 "----------------------------------------------------------------------------------"
+22:31:23 "----------------------------------------------------------------------------------"
+22:31:23 "---- "
+22:31:23 "---- [UPDATE PLAYER ON DB]"
+22:31:23 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[282.262,[16933.1,21879.5,9.41575]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]::76561199012601581_ADM:[]:1:[0,0,0,0,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0833333,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.495e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:31:23 "---- _resultado = """"."
+22:31:23 "----------------------------------------------------------------------------------"
+22:31:24 "[BRPVP] FPS = 59."
+22:31:24 "============= PLAYERS FPS BEGIN ============="
+22:31:24 "[56.6848,""Rainbow--爱酱""]"
+22:31:24 "[34.7021,""75Brigand""]"
+22:31:24 "Number of players: 2"
+22:31:24 "Average FPS: 46"
+22:31:24 "============== PLAYERS FPS END =============="
+22:31:29 "[BRPVP] FPS = 56."
+22:31:31 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.19397]"
+22:31:34 "[BRPVP] FPS = 60."
+22:31:39 "[BRPVP] FPS = 57."
+22:31:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.169006]"
+22:31:44 "[BRPVP] FPS = 59."
+22:31:49 "[BRPVP] FPS = 58."
+22:31:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.26001]"
+22:31:54 "[BRPVP] FPS = 52."
+22:31:54 "============= PLAYERS FPS BEGIN ============="
+22:31:54 "[58.6721,""Rainbow--爱酱""]"
+22:31:54 "[19.8228,""75Brigand""]"
+22:31:54 "Number of players: 2"
+22:31:54 "Average FPS: 39"
+22:31:54 "============== PLAYERS FPS END =============="
+22:31:59 "[BRPVP] FPS = 58."
+22:32:01 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.175049]"
+22:32:04 "[BRPVP] FPS = 57."
+22:32:09 "[BRPVP] FPS = 58."
+22:32:11 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.166992]"
+22:32:14 "[BRPVP] FPS = 56."
+22:32:15 "[BRPVP ACTIVE LOOT] count BRPVP_lootActive = 0."
+22:32:19 "[BRPVP] FPS = 60."
+22:32:21 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.185974]"
+22:32:23 "********************* MASS SAVE PLAYERS ************************"
+22:32:23 "******************* MASS SAVE END PLAYERS **********************"
+22:32:23 "********************* MASS SAVE VEHICLES ***********************"
+22:32:23 "[3 VEHICLES SAVED!]"
+22:32:23 "******************* MASS SAVE END VEHICLES *********************"
+22:32:23 "----------------------------------------------------------------------------------"
+22:32:23 "---- "
+22:32:23 "---- [UPDATE PLAYER ON DB]"
+22:32:23 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemCompass"",""ItemWatch"",""ItemRadio"",""ItemGPS"",""Rangefinder""],[""arifle_SPAR_01_GL_snd_F"",[""muzzle_snds_m_snd_F"",""acc_flashlight"",""optic_ERCO_snd_F"",""""],[""30Rnd_556x45_Stanag_Sand"",""1Rnd_SmokeRed_Grenade_shell""]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_02_F"",["""",""acc_flashlight_pistol"",""optic_Yorris"",""""],[""6Rnd_45ACP_Cylinder""]],[]]:[[""B_Bergen_mcamo_F"",[[[],[]],[[""ToolKit"",""Medikit""],[1,1]],[[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""150Rnd_556x45_Drum_Mag_F"",150],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_Grenade_shell"",1],[""1Rnd_HE_
+22:32:23 "---- _resultado = """"."
+22:32:23 "----------------------------------------------------------------------------------"
+22:32:23 "----------------------------------------------------------------------------------"
+22:32:23 "---- "
+22:32:23 "---- [UPDATE PLAYER ON DB]"
+22:32:23 "---- _key = 1:P1.75228e+006:savePlayer:[[""ItemMap"",""NVGoggles"",""Binocular""],["""",["""","""","""",""""],[]],["""",["""","""","""",""""],[]],[""hgun_Pistol_heavy_01_F"",["""","""","""",""""],[""11Rnd_45ACP_Mag""]],[]]:[[""B_AssaultPack_dgtl"",[[[],[]],[[],[]],[[""11Rnd_45ACP_Mag"",11]]]],["""",[[[],[]],[[],[]],[]]],[""U_C_Man_casual_5_F"",[[[],[]],[[""FirstAidKit""],[1]],[[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11],[""11Rnd_45ACP_Mag"",11]]]]]:[282.262,[16932,21878.6,9.49371]]:[[[""face_hub"",""neck"",""head"",""pelvis"",""spine1"",""spine2"",""spine3"",""body"",""arms"",""hands"",""legs"",""body""],[0,0,0,0,0,0,0,0,0,0,0,0]],[99.7222,100],0]:[""C_man_polo_1_F"",""H_Cap_surfer"",""""]::76561199012601581_ADM:[]:1:[0,0,0,0,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0]:1:250000:[]:1.495e+006:0:0:0:[1500,3000,0,0,0,0,0,0]:[]."
+22:32:23 "---- _resultado = """"."
+22:32:23 "----------------------------------------------------------------------------------"
+22:32:24 "[BRPVP] FPS = 48."
+22:32:24 "============= PLAYERS FPS BEGIN ============="
+22:32:24 "[57.9586,""Rainbow--爱酱""]"
+22:32:24 "[19.5178,""75Brigand""]"
+22:32:24 "Number of players: 2"
+22:32:24 "Average FPS: 39"
+22:32:24 "============== PLAYERS FPS END =============="
+22:32:29 "[BRPVP] FPS = 59."
+22:32:32 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.755005]"
+22:32:36 "[BRPVP] FPS = 43."
+22:32:41 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.747925]"
+22:32:41 "[BRPVP] FPS = 9."
+22:32:46 "[BRPVP] FPS = 42."
+22:32:51 "[BRPVP AI SIMU CODE TIME #PLAYERS,#BOTS,TIME_TAKEN] [2,277,0.215942]"
+22:32:51 "[BRPVP] FPS = 42."
